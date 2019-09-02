@@ -2,6 +2,11 @@
 
 ## Task
 
+Implement component `Sum`, which accept props `a` and `b` and render text like this:
+"Sum of 2 and 1 is 3"
+
+`App` component - should render this component and pass props to it.
+
 ## Workflow
 
 - Fork the repository with task
