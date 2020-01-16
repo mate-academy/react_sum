@@ -1,12 +1,8 @@
 import React from 'react';
+import './App.css';
 
-function App() {
-  const a = 8;
-  const b = 7;
-
-  return (
-    'Put your JSX here'
-  );
-}
+const App = () => (
+  <h1>React sum</h1>
+);
 
 export default App;
