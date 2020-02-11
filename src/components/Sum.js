@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 const Sum = (props) => {
   const { a, b } = props;
-  const expresion = a + b;
+  const sumResult = a + b;
 
   return (
-    <p>{`Sum of ${a} and ${b} is ${expresion}`}</p>
+    <p>{`Sum of ${a} and ${b} is ${sumResult}`}</p>
   );
 };
 
