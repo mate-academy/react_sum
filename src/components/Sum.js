@@ -1,32 +1,25 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-const Sum = ({ items = [] }) => (
-  <Fragment>
-    {items.map(item => (
-      <p key={item.id}>
+const Sum = ({ a, b }) => (
+  <p>
 Sum of
-        {' '}
-        {item.a}
-        {' '}
+    {' '}
+    {a}
+    {' '}
 and
-        {' '}
-        {item.b}
-        {' '}
+    {' '}
+    {b}
+    {' '}
 is
-        {' '}
-        {item.a + item.b}
-      </p>
-    ))}
-
-  </Fragment>
+    {' '}
+    {a + b}
+  </p>
 );
 
 Sum.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.shape({
-    a: PropTypes.number.isRequired,
-    b: PropTypes.number.isRequired,
-  })).isRequired,
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
 };
 
 export default Sum;
