@@ -2,21 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Sum(props) {
-  const { expression } = props;
+  const { a, b } = props;
 
   return (
-    <div>
-      {
-        expression.map(elem => (
-          <p>{`Sum of  ${elem[0]} and ${elem[1]} is ${elem[0] + elem[1]}`}</p>
-        ))
-      }
-    </div>
+    <p>{`Sum of ${a} and ${b} is ${a + b}`}</p>
   );
 }
 
 Sum.propTypes = {
-  expression: PropTypes.arrayOf(PropTypes.array).isRequired,
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
 };
 
 export default Sum;
