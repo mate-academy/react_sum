@@ -1,5 +1,10 @@
 import React from 'react';
-// eslint-disable-next-line
-const Sum = ({ a, b }) => (<p>sum of {a} and {b} is {a + b}</p>);
+import PropTypes from 'prop-types';
 
+const Sum = ({ a, b }) => (<p>{`Sum of ${a} and ${b} is ${a + b}`}</p>);
+
+Sum.propTypes = {
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
+};
 export default Sum;
