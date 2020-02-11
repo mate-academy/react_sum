@@ -1,11 +1,12 @@
 import React from 'react';
+import Sum from './Sum';
 
 function App() {
   const a = 8;
   const b = 7;
 
   return (
-    'Put your JSX here'
+   <Sum x={a} y={b}/>
   );
 }
 
