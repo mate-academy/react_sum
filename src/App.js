@@ -9,11 +9,9 @@ const App = () => (
     <h1>Sum Component</h1>
     <hr />
 
-    {setOfArgs.map((args) => {
-      const [argA, argB] = args;
-
-      return <Sum key={Math.random().toString()} a={argA} b={argB} />;
-    })}
+    {setOfArgs.map(([a, b]) => (
+      <Sum key={Math.random().toString()} a={a} b={b} />
+    ))}
   </div>
 );
 
