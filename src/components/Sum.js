@@ -1,14 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Sum = (props) => {
-  const { a, b } = props;
-  const sumResult = a + b;
-
-  return (
-    <p>{`Sum of ${a} and ${b} is ${sumResult}`}</p>
-  );
-};
+const Sum = ({ a, b }) => (
+  <p>{`Sum of ${a} and ${b} is ${a + b}`}</p>
+);
 
 Sum.propTypes = {
   a: PropTypes.number.isRequired,
