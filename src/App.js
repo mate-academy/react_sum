@@ -10,7 +10,7 @@ const App = () => (
   </div>
 );
 
-const Sum = ({ a, b }) => <p>{`Sum of {a} and {b} is {a + b}`}</p>;
+const Sum = ({ a, b }) => <p>{`Sum of ${a} and ${b} is ${a + b}`}</p>;
 
 Sum.propTypes = {
   a: PropTypes.number.isRequired,
