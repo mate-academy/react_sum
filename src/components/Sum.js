@@ -1,26 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Sum = (props) => {
-  const { data } = props;
-
-  return (
-    <p>{`Sum of ${data.a} and ${data.b} is ${data.a + data.b} `}</p>
-  );
-};
+const Sum = ({ a, b }) => (
+  <p>{`Sum of ${a} and ${b} is ${a + b} `}</p>
+);
 
 Sum.propTypes = {
-  data: PropTypes.shape({
-    a: PropTypes.number.isRequired,
-    b: PropTypes.number.isRequired,
-  }),
+  a: PropTypes.number,
+  b: PropTypes.number,
 };
 
 Sum.defaultProps = {
-  data: PropTypes.shape({
-    a: '0',
-    b: '0',
-  }),
+  a: 0,
+  b: 0,
 };
 
 export default Sum;
