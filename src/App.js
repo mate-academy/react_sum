@@ -2,7 +2,19 @@ import React from 'react';
 import './App.css';
 
 const App = () => (
-  <h1>React sum Hello R dev</h1>
+  <div>
+    <Sum a={2} b={2} />
+    <Sum a={10} b={0} />
+    <Sum a={-5} b={5} />
+  </div>
 );
+
+const Sum = (props) => {
+  const { a, b } = props;
+
+  return (
+    <p>Sum of { a} and { b} is { a + b}</p>
+  );
+};
 
 export default App;
