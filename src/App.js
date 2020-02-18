@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import Sum from './components/Sum';
 
 const App = () => (
   <div>
@@ -8,13 +8,5 @@ const App = () => (
     <Sum a={-5} b={5} />
   </div>
 );
-
-const Sum = (props) => {
-  const { a, b } = props;
-
-  return (
-    <p>Sum of { a} and { b} is { a + b}</p>
-  );
-};
 
 export default App;
