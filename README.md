@@ -2,7 +2,7 @@
 - Replace `<your_account>` with your Github username in the links
 
   - [DEMO LINK](https://andreas-just.github.io/react_sum/)
-  - [PULL REQUEST](https://github.com/mate-academy/react_decompose/pull/127)
+  - [PULL REQUEST](https://github.com/mate-academy/react_sum/pull/61)
 
 - Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
 
