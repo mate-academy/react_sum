@@ -1,5 +1,5 @@
 # Sum component
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://YarolavMakarov.github.io/react_sum/)
+- Replace `<your_account>` with your Github username in the [DEMO LINK](https://YaroslavMakarov.github.io/react_sum/)
 - Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
 
 ## Task
