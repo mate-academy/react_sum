@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 function Sum({ a, b }) {
   return (
-    <h1>
+    <p>
       {`Sum of ${a} and ${b} is ${a + b}`}
-    </h1>
+    </p>
   );
 }
 
