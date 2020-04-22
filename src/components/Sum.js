@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Sum = (props) => {
+const Sum = ({a, b}) => {
   return (
     <p>
-      {`Sum of ${props.a} and ${props.b} is ${props.a + props.b}`}
+      {`Sum of ${a} and ${b} is ${a + b}`}
     </p>)
 };
 
