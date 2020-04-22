@@ -1,6 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-// eslint-disable-next-line react/prop-types
 function Sum({ a, b }) {
   return (
     <p>
@@ -18,5 +18,10 @@ function Sum({ a, b }) {
     </p>
   );
 }
+
+Sum.propTypes = {
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
+};
 
 export default Sum;
