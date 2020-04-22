@@ -8,6 +8,7 @@ const Sum = ({ a, b }) => (
     {a}
     {' '}
     and
+    {' '}
     {b}
     {' '}
     is
