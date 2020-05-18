@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+div {
+  margin: 1rem;
+}
