@@ -10,6 +10,6 @@ export const Sum = props => (
 );
 
 Sum.propTypes = {
-  a: PropTypes.element.isRequired,
-  b: PropTypes.element.isRequired,
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
 };
