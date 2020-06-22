@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Sum = props => (
+const Sum = ({ a, b }) => (
   <h1>
     Sum of &nbsp;
-    {props.a}
+    {a}
     &nbsp; and &nbsp;
-    {props.b}
+    {b}
     &nbsp; is &nbsp;
-    {props.a + props.b}
+    {a +b}
   </h1>
 );
 
