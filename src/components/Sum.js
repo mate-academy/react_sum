@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Sum = ({ a, b }) => (
-  <h2>
+  <p>
     {`Sum of ${a} and ${b} is ${a + b}`}
-  </h2>
+  </p>
 );
 
 Sum.propTypes = {
