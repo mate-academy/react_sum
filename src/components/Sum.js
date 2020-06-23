@@ -1,12 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Sum = (props) => {
-  // eslint-disable-next-line no-console
-  console.log(props);
+const Sum = ({ a, b }) => (
+  <p>
+    {`Sum of ${a} and ${b} is ${a + b}`}
+  </p>
+);
 
-  return (
-    <p>Sum of {props.a} and {props.b} is {+props.a + props.b}</p>
-  );
+Sum.propTypes = {
+  a: PropTypes.number,
+  b: PropTypes.number,
+};
+
+Sum.defaultProps = {
+  a: 0,
+  b: 0,
 };
 
 export default Sum;
