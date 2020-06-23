@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Sum = props => (
+const Sum = ({ a, b }) => (
   <h1>
     Sum of
     {' '}
-    {props.a}
+    {a}
     +
-    {props.b}
+    {b}
     {' '}
     is
     {' '}
-    {props.a + props.b}
+    {a + b}
   </h1>
 );
 
