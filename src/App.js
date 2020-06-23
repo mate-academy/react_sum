@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import PropTypes from 'prop-types';
+import { Sum } from './components/Sum';
 
 const App = () => (
   <>
@@ -10,16 +10,5 @@ const App = () => (
     <Sum a={-5} b={5} />
   </>
 );
-
-const Sum = ({ a, b }) => (
-  <p>
-    {`Sum of ${a} and ${b} is ${a + b}`}
-  </p>
-);
-
-Sum.propTypes = {
-  a: PropTypes.number.isRequired,
-  b: PropTypes.number.isRequired,
-};
 
 export default App;
