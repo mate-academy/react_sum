@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 
 const Sum = ({ a = 0, b = 0 }) => (
   <p>
-    Sum of
+    Sum of&nbsp;
     {a}
     {' '}
-    and
+    and&nbsp;
     {b}
     {' '}
-    is
+    is&nbsp;
     {a + b}
   </p>
 );
