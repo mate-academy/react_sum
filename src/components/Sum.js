@@ -4,12 +4,7 @@ import PropTypes from 'prop-types';
 function Sum({ a, b }) {
   return (
     <p>
-      Sum of &nbsp;
-      {a}
-      &nbsp; and &nbsp;
-      {b}
-      &nbsp; is &nbsp;
-      {a + b}
+      { `Sum of ${a} and ${b} is ${a + b}` }
     </p>
   );
 }
