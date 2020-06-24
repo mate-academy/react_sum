@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import Sum from './components/Sum';
+import { Sum } from './components/Sum';
 
 const App = () => (
-  <p>
-    {Sum(2, 2)}
-    <br />
-    {Sum(10, 0)}
-    <br />
-    {Sum(-5, 5)}
-  </p>
+  <>
+    <Sum a={2} b={2} />
+    <Sum a={10} b={0} />
+    <Sum a={5} b={-5} />
+  </>
 );
 
 export default App;
