@@ -1,18 +1,16 @@
 import React from 'react';
 import './App.css';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const App = ({ a, b }) => (
   <h1>
-    {
-      `Sum of ${a} and ${b} = ${a + b}`
-    }
+    {`Sum of ${a} and ${b} = ${a + b}`}
   </h1>
 );
 
 App.propTypes = {
-  a: propTypes.number.isRequired,
-  b: propTypes.number.isRequired,
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
 };
 
 export default App;
