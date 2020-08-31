@@ -1,0 +1,27 @@
+body {
+  background-color: yellow;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.heading {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.sum {
+  width: fit-content;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 5%;
+  background-color: green;
+  color: white;
+  font-size: 24px;
+}
