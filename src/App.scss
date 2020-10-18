@@ -1,1 +1,14 @@
-// styles go here
+.sum {
+  margin: 0 auto;
+  padding: 10px;
+  width: 500px;
+  border-radius: 40px;
+  color: #fff;
+  font-size: xx-large;
+  background: radial-gradient(
+    circle,
+    rgb(76, 76, 77) 0%,
+    rgb(108, 106, 106) 100%
+  );
+  text-align: center;
+}
