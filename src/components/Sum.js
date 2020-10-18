@@ -11,7 +11,7 @@ const Sum = ({ a, b }) => (
     {' '}
     <span className="sum__number">{b}</span>
     {' '}
-    isnpm
+    is
     {' '}
     <span className="sum__result">{a + b}</span>
   </div>
