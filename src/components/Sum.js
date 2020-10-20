@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Sum = ({
-  expression: { x, y },
+  numbers: { x, y },
 }) => (
   <p>
     {`Sum of ${x} and ${y} id ${x + y}`}
@@ -10,7 +10,7 @@ const Sum = ({
 );
 
 Sum.propTypes = {
-  expression: PropTypes.shape({
+  numbers: PropTypes.shape({
     x: PropTypes.number,
     y: PropTypes.number,
   }).isRequired,

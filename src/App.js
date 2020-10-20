@@ -6,17 +6,17 @@ const App = () => (
   <div>
     <h1>React sum</h1>
     <Sum
-      expression={{
+      numbers={{
         x: 2, y: 2,
       }}
     />
     <Sum
-      expression={{
+      numbers={{
         x: 10, y: 0,
       }}
     />
     <Sum
-      expression={{
+      numbers={{
         x: -5, y: 5,
       }}
     />
