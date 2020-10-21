@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Sum = ({ a, b }) => (
   <div>
     {
-      `Sum of: {a} and {b} is {a + b}`
+      `Sum of: ${a} and ${b} is ${a + b}`
     }
   </div>
 );
