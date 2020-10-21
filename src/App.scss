@@ -1,1 +1,32 @@
-// styles go here
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.sum {
+  margin: 50px auto;
+  width: 400px;
+  height: 400px;
+  background-color: rgba(0, 255, 213, 0.37);
+
+  &__title {
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(10, 10, 131, 0.712);
+  }
+
+  &__text {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
