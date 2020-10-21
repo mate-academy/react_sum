@@ -10,7 +10,7 @@ const Sum = ({ a, b }) => (
     {b}
     {' '}
     is&nbsp;
-    {+a + +b}
+    {a + b}
   </p>
 );
 
