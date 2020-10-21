@@ -1,24 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-Sum.defaultProps = {
-  a: PropTypes.number,
-  b: PropTypes.number,
-};
-
 Sum.propTypes = {
-  a: PropTypes.number,
-  b: PropTypes.number,
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
 };
 
-function Sum(props) {
-  // const { a, b } = props;
-
+function Sum({ a, b }) {
   return (
     <p>
-      {`Sum of ${props.a} 
-      and ${props.b} 
-      is ${Number(props.a) + Number(props.b)}`}
+      {`Sum of ${a} 
+      and ${b} 
+      is ${a + b}`}
     </p>
   );
 }
