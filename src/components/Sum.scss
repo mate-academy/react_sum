@@ -1,0 +1,20 @@
+.sums {
+  width: 200px;
+
+  padding: 10px;
+
+  border: solid rgb(97, 5, 218) 2px;
+  border-radius: 8px;
+  background-color: rgb(255, 60, 0);
+
+  color: white;
+  text-align: center;
+
+  cursor: pointer;
+
+  transition: transform 300ms;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
