@@ -1,1 +1,26 @@
-// styles go here
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(248, 250, 133);
+}
+
+p {
+  width: 300px;
+  height: 100px;
+  margin: 60px auto;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  color: rgb(223, 183, 9);
+  background-color: rgb(246, 247, 240);
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgba(223, 183, 9, 0.5);
+
+  &:first-of-type {
+    margin-top: 140px;
+  }
+}
