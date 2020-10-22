@@ -6,17 +6,9 @@ const Sum = ({
   b,
 }) => (
   <h1>
-    Sum of
-    {' '}
-    {a}
-    {' '}
-    and
-    {' '}
-    {b}
-    {' '}
-    is
-    {' '}
-    {a + b}
+    {
+      `Sum of ${a} and ${b} is ${a + b}`
+    }
   </h1>
 );
 
