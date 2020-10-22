@@ -3,7 +3,7 @@ import './App.scss';
 import Sum from './components/Sum';
 
 const App = () => (
-  <div>
+  <>
     <Sum
       a={2}
       b={2}
@@ -18,7 +18,7 @@ const App = () => (
       a={-5}
       b={5}
     />
-  </div>
+  </>
 );
 
 export default App;
