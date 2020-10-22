@@ -19,7 +19,7 @@ Sum.defaultProps = {
 
 Sum.propTypes = {
   a: PropTypes.number,
-  b: PropTypes.string,
+  b: PropTypes.number,
 };
 
 export default Sum;
