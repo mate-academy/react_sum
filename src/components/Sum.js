@@ -4,13 +4,20 @@ import PropTypes from 'prop-types';
 
 const Sum = ({ a, b }) => (
   <div>
-    Sum of 2 and 1 is
+    Sum of
+    {' '}
+    {a}
+    {' '}
+    and
+    {' '}
+    {b}
+    {' '}
+    is
     {' '}
     {a + b}
   </div>
 );
 
-// eslint-disable-next-line react/no-typos
 Sum.propTypes = {
   a: PropTypes.number.isRequired,
   b: PropTypes.number.isRequired,
