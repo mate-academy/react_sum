@@ -1,1 +1,15 @@
-// styles go here
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  letter-spacing: 0.2em;
+}
+
+p:hover {
+  font-weight: bold;
+}
+
+.result {
+  text-align: center;
+}
