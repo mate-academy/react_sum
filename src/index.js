@@ -6,3 +6,13 @@ ReactDOM.render(
   <App a="2" b="3" />,
   document.getElementById('root'),
 );
+
+ReactDOM.render(
+  <App a="10" b="0" />,
+  document.getElementById('root'),
+);
+
+ReactDOM.render(
+  <App a="2" b="3" />,
+  document.getElementById('root'),
+);
