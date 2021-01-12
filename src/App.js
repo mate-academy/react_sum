@@ -1,6 +1,6 @@
 import React from 'react';
-import Sum from './components/Sum';
 import './App.scss';
+import Sum from './components/Sum';
 
 const App = () => (
   <div className="result">
