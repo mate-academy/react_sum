@@ -3,17 +3,7 @@ import PropTypes from 'prop-types';
 
 export const Sum = ({ a, b }) => (
   <p>
-    Сумма
-    {' '}
-    {a}
-    {' '}
-    и
-    {' '}
-    {b}
-    {' '}
-    равно
-    {' '}
-    {a + b}
+    {`Сумма ${a} и ${b} равно ${a + b}`}
   </p>
 );
 
