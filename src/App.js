@@ -4,10 +4,7 @@ import './App.scss';
 
 const App = () => (
   <h1 className="title">
-    <Sum
-      a={2}
-      b={2}
-    />
+    <Sum a={2} b={2} />
 
     <Sum
       a={10}
