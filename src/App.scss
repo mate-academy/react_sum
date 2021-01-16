@@ -1,1 +1,9 @@
-// styles go here
+$bg_color: #ffefd5;
+$color: #cd5c5c;
+
+code {
+  margin: 0 2px;
+  padding: 3px 5px;
+  background-color: $bg_color;
+  color: $color;
+}
