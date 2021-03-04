@@ -6,8 +6,14 @@ const App = () => (
   <>
     <h1>React sum</h1>
     <Sum />
-    <Sum a={10} b={0} />
-    <Sum a={-5} b={5} />
+    <Sum
+      a={10}
+      b={0}
+    />
+    <Sum
+      a={-5}
+      b={5}
+    />
   </>
 );
 
