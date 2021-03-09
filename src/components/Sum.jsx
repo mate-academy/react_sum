@@ -6,12 +6,7 @@ const Sum = ({
   b,
 }) => (
   <p>
-    Sum of
-    {` ${a} `}
-    and
-    {` ${b} `}
-    is
-    {` ${a + b} `}
+    {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
 );
 
