@@ -3,12 +3,9 @@ import PropTypes from 'prop-types';
 
 const Sum = ({ a, b }) => (
   <p>
-    Sum of
-    {` ${a.toString()} `}
-    and
-    {` ${b.toString()} `}
-    is
-    {` ${(a + b).toString()} `}
+    {
+      `Sum of ${a.toString()} and ${b.toString()} is ${(a + b).toString()}`
+    }
   </p>
 );
 
