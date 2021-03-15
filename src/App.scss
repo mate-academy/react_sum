@@ -1,1 +1,15 @@
-// styles go here
+.Heading {
+  font-size: 20px;
+  color: green;
+  text-align: center;
+}
+
+.Operation {
+  height: 50px;
+  margin-bottom: 5px;
+
+  display: flex;
+  justify-content: center;
+
+  border: 1px dashed black;
+}
