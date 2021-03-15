@@ -3,7 +3,7 @@ import './App.scss';
 import Sum from './components/Sum';
 
 const App = () => (
-  <div>
+  <div className="container">
     <h1>React sum</h1>
     <Sum
       a={2}
