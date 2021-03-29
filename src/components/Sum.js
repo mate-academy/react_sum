@@ -6,17 +6,7 @@ function Sum({ a, b }) {
 
   return (
     <p>
-      Sum of
-      {' '}
-      {a}
-      {' '}
-      and
-      {' '}
-      {b}
-      {' '}
-      is
-      {' '}
-      {sum}
+      {`Sum of ${a} and ${b} is ${sum}`}
     </p>
   );
 }
