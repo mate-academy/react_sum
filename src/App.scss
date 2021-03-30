@@ -1,1 +1,17 @@
-// styles go here
+.wrapper {
+  padding-block: 20px;
+  background-color: yellow;
+  text-align: center;
+  width: 50%;
+  border-radius: 20px;
+
+  &__heading {
+    font-style: italic;
+  }
+
+  &__input {
+    font-size: 2em;
+    font-weight: bold;
+    color: blue;
+  }
+}
