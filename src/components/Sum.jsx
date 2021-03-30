@@ -1,5 +1,5 @@
 import React from 'react';
-import ProtoTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const Sum = ({ first, second }) => (
   <p>
@@ -17,9 +17,9 @@ const Sum = ({ first, second }) => (
   </p>
 );
 
-Sum.ProtoTypes = {
-  first: ProtoTypes.number.isRequired,
-  second: ProtoTypes.number.isRequired,
+Sum.propTypes = {
+  first: PropTypes.number.isRequired,
+  second: PropTypes.number.isRequired,
 };
 
 export default Sum;
