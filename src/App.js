@@ -5,9 +5,9 @@ import Sum from './components/Sum';
 const App = () => (
   <div className="sum">
     <h1>React sum</h1>
-    <Sum a={2} b={2} />
-    <Sum a={10} b={0} />
-    <Sum a={-5} b={5} />
+    <Sum first={2} second={2} />
+    <Sum first={10} second={0} />
+    <Sum first={-5} second={5} />
   </div>
 );
 
