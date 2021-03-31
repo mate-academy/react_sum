@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './sum.scss';
 
 const Sum = ({ a, b }) => (
-  <p className="resultOfSum">
+  <p className="sum-result">
     {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
 );
