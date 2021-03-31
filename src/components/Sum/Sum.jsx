@@ -4,17 +4,17 @@ import './sum.scss';
 
 const Sum = ({
   firstNumber,
-  seconNumber,
+  secondNumber,
 }) => (
   <div className="section">
-    {`Sum of ${firstNumber} and ${seconNumber} = `}
-    {<span className="borderBotoom">{firstNumber + seconNumber}</span>}
+    {`Sum of ${firstNumber} and ${secondNumber} = `}
+    {<span className="borderBotoom">{firstNumber + secondNumber}</span>}
   </div>
 );
 
 Sum.propTypes = {
   firstNumber: PropTypes.number.isRequired,
-  seconNumber: PropTypes.number.isRequired,
+  secondNumber: PropTypes.number.isRequired,
 };
 
 export default Sum;
