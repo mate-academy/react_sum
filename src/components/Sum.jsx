@@ -9,14 +9,9 @@ function Sum({ a, b }) {
   );
 }
 
-Sum.defaultProps = {
-  b: 0,
-  a: 0,
-};
-
 Sum.propTypes = {
-  a: PropTypes.number,
-  b: PropTypes.number,
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
 };
 
 export default Sum;
