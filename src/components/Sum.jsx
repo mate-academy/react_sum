@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Sum = ({ num1, num2 }) => (
   <p>
-      Sum of {num1} and {num2} is {num1 + num1}
+      Sum of {num1} and {num2} is {num1 + num2}
   </p>
 );
 
