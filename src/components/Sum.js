@@ -9,13 +9,7 @@ Sum.propTypes = {
 function Sum({ a = 0, b = 0 }) {
   return (
     <p>
-      Сумма&nbsp;
-      {a}
-      &nbsp;и&nbsp;
-      {b}
-      &nbsp;равна&nbsp;
-      {a + b}
-      .
+      {`Сумма ${a} и ${b} равна ${a + b}.`}
     </p>
   );
 }
