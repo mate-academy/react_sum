@@ -14,7 +14,6 @@ const App = () => (
 
     <Sum
       a={10}
-      b={0}
     />
 
     <Sum
