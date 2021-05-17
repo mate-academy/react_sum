@@ -1,1 +1,23 @@
-// styles go here
+.pageTitle {
+  text-align: center;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.sum {
+  font-size: 30px ;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  border: blue solid 5px;
+  border-radius: 20px;
+}
