@@ -1,19 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Sum = ({ a = 0, b = 0 }) => (
+const Sum = ({ a, b }) => (
   <p className="sum">
-    Sum of
-    {' '}
-    {a}
-    {' '}
-    and
-    {' '}
-    {b}
-    {' '}
-    is
-    {' '}
-    {a + b}
+    { `Sum ${a} and ${b} is ${a + b}` }
   </p>
 );
 
