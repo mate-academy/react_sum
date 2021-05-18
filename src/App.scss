@@ -1,1 +1,12 @@
 // styles go here
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sumList {
+  padding: 30px;
+  border: 3px solid grey;
+  border-radius: 20px;
+}
