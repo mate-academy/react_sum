@@ -6,7 +6,7 @@ Sum.propTypes = {
   b: number.isRequired,
 };
 
-function Sum({ a = 0, b = 0 }) {
+function Sum({ a, b }) {
   return (
     <p>
       {`Сумма ${a} и ${b} равна ${a + b}.`}
