@@ -1,20 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../App.scss'
+import '../App.scss';
 
 const Sum = ({ a, b }) => (
-  <p className='paragraph'>
-    Sum of
-    {' '}
-    {a}
-    {' '}
-    and
-    {' '}
-    {b}
-    {' '}
-    is
-    {' '}
-    {a + b}
+  <p className="paragraph">
+    {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
 );
 
