@@ -4,23 +4,7 @@ import PropTypes from 'prop-types';
 function Sum({ a, b }) {
   return (
     <p className="Sum">
-      Sum of
-      {' '}
-      <i>
-        {a}
-      </i>
-      {' '}
-      and
-      {' '}
-      <i>
-        {b}
-      </i>
-      {' '}
-      is
-      {' '}
-      <strong>
-        {a + b}
-      </strong>
+      {`Sum of ${a} and ${b} is ${a + b}`}
     </p>
   );
 }
