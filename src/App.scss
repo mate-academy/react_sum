@@ -1,1 +1,18 @@
-// styles go here
+.block {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 10px;
+}
+
+.sum {
+  padding: 5px;
+
+  text-align: center;
+  border: 1px blue solid;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: large;
+}
