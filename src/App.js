@@ -5,18 +5,9 @@ import Text from './components/Text';
 const App = () => (
   <div className="app">
     <h1>React sum</h1>
-    <Text
-      a={2}
-      b={2}
-    />
-    <Text
-      a={10}
-      b={0}
-    />
-    <Text
-      a={-5}
-      b={5}
-    />
+    <Text a={2} b={2} />
+    <Text a={10} b={0} />
+    <Text a={-5} b={5} />
   </div>
 );
 
