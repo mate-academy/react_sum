@@ -1,26 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import './App.scss';
+import Sum from './components/Sum';
 
-const App = ({ a, b }) => (
-  <p className="text">
-    Sum of
-    {' '}
-    <strong>{a}</strong>
-    {' '}
-    and
-    {' '}
-    <strong>{b}</strong>
-    {' '}
-    is
-    {' '}
-    <strong>{a + b}</strong>
-  </p>
+const App = () => (
+  <>
+    <Sum a={2} b={2} />
+    <Sum a={10} b={0} />
+    <Sum a={5} b={-5} />
+  </>
 );
-
-App.propTypes = {
-  a: PropTypes.number.isRequired,
-  b: PropTypes.number.isRequired,
-};
 
 export default App;
