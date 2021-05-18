@@ -5,25 +5,15 @@ const Sum = function({ a, b }) {
   return (
     <li>
       <span>
-        Sum of
-        {' '}
-        {a}
-        {' '}
-        and
-        {' '}
-        {b}
-        {' '}
-        is
-        {' '}
-        {a + b}
+        {`Sum of ${a} and ${b} is ${a + b}`}
       </span>
     </li>
   );
 };
 
 Sum.propTypes = {
-  a: PropTypes.string.isRequired,
-  b: PropTypes.string.isRequired,
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
 };
 
 export default Sum;
