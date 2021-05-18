@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.scss';
 import PropTypes from 'prop-types';
-import Sum from './components/Sum';
 
 const App = () => (
   <div className="app">
@@ -14,7 +13,7 @@ const App = () => (
 
 const Text = ({ a, b }) => (
   <p className="text">
-    {`Sum of ${a} and ${b} is ${Sum(a, b)}`}
+    {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
 );
 
