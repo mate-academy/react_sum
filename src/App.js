@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
-import Text from './components/Text';
+import PropTypes from 'prop-types';
+import Sum from './components/Sum';
 
 const App = () => (
   <div className="app">
@@ -10,5 +11,16 @@ const App = () => (
     <Text a={-5} b={5} />
   </div>
 );
+
+const Text = ({ a, b }) => (
+  <p className="text">
+    {`Sum of ${a} and ${b} is ${Sum(a, b)}`}
+  </p>
+);
+
+Text.propTypes = {
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
+};
 
 export default App;
