@@ -1,13 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Sum = ({ firstElement, secondElement }) => (
-  <div>
-    Result -
-    {' '}
-    {firstElement + secondElement}
-  </div>
-);
+function Sum({ firstElement, secondElement }) {
+  return (
+    <p>
+      Sum of
+      {` ${firstElement} `}
+      and
+      {` ${firstElement} `}
+      is
+      {` ${firstElement + secondElement}`}
+    </p>
+  );
+}
 
 Sum.propTypes = {
   firstElement: PropTypes.number.isRequired,
