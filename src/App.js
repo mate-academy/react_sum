@@ -1,8 +1,6 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import './App.scss';
-import PropTypes from 'prop-types';
+import Sum from './components/Sum';
 
 const App = () => (
   <div>
@@ -13,17 +11,5 @@ const App = () => (
     ))}
   </div>
 );
-
-const Sum = ({ ...props }) => (
-  <div>
-    <p>
-      Sum of {props.a} and {props.b} is {props.a + props.b}
-    </p>
-  </div>
-);
-
-Sum.propTypes = {
-  props: PropTypes.arrayOf([PropTypes.number, PropTypes.number]).isRequired,
-};
 
 export default App;
