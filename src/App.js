@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import './App.scss';
 import PropTypes from 'prop-types';
@@ -5,32 +7,23 @@ import PropTypes from 'prop-types';
 const App = () => (
   <div>
     <h1>React sum</h1>
-    <Sum />
+
+    {[[2, 2], [10, 0], [-5, 5]].map(([a, b]) => (
+      <Sum a={a} b={b} />
+    ))}
   </div>
 );
 
-const Sum = ({
-  a = [2, 10, -5],
-  b = [2, 0, 5],
-}) => (
+const Sum = ({ ...props }) => (
   <div>
     <p>
-      Sum of {a[0]} and {b[0]} is {a[0] + b[0]}
-    </p>
-
-    <p>
-      Sum of {a[1]} and {b[1]} is {a[1] + b[1]}
-    </p>
-
-    <p>
-      Sum of {a[2]} and {b[2]} is {a[2] + b[2]}
+      Sum of {props.a} and {props.b} is {props.a + props.b}
     </p>
   </div>
 );
 
 Sum.propTypes = {
-  a: PropTypes.arrayOf(PropTypes.number).isRequired,
-  b: PropTypes.arrayOf(PropTypes.number).isRequired,
+  props: PropTypes.arrayOf([PropTypes.number, PropTypes.number]).isRequired,
 };
 
 export default App;
