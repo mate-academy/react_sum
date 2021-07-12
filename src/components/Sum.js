@@ -6,14 +6,14 @@ const Sum = ({
   right,
 }) => (
   <p>
-    Sum of
-    {left}
-    {' '}
-    and
-    {right}
-    {' '}
-    is
-    {left + right}
+    {`
+      Sum of
+      ${left}
+      and
+      ${right}
+      is
+      ${left + right}
+    `}
   </p>
 );
 
