@@ -2,25 +2,19 @@ import React from 'react';
 import propTypes from 'prop-types';
 
 import './Sum.scss'
+//Sum of {valueA} and {valueB} is {valueA + valueB}
 
 const Sum = ({valueA, valueB}) => (
   <div className="Sum">
+    Sum of&nbsp;
     <span className="Sum__first-digit">
       {valueA}
     </span>
-    <span className="Sum__sign">
-      &nbsp;
-      +
-      &nbsp;
-    </span>
+    &nbsp;and&nbsp;
     <span className="Sum__second-digit">
       {valueB}
     </span>
-    <span className="Sum__equal">
-      &nbsp;
-      =
-      &nbsp;
-    </span>
+    &nbsp;is&nbsp;
     <span className="Sum__result">
       {valueA + valueB}
     </span>

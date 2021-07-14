@@ -2,17 +2,15 @@
   font-size: 24px;
   font-weight: bold;
 
-  &__first-digit,
-  &__second-digit {
+  &__first-digit {
     color: blue;
   }
 
-  &__sign,
-  &__equal {
-    color: red;
+  &__second-digit {
+    color: green;
   }
 
   &__result {
-    color: green;
+    color: red;
   }
 }
