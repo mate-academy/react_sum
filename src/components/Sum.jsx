@@ -2,7 +2,6 @@ import React from 'react';
 import propTypes from 'prop-types';
 
 import './Sum.scss'
-//Sum of {valueA} and {valueB} is {valueA + valueB}
 
 const Sum = ({valueA, valueB}) => (
   <div className="Sum">
