@@ -9,9 +9,11 @@ function Sum({ a, b }) {
       {a}
       {' '}
       and
+      {' '}
       {b}
       {' '}
       is
+      {' '}
       {a + b}
     </p>
   );
