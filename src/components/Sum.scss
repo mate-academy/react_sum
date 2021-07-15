@@ -1,0 +1,16 @@
+.Sum {
+  font-size: 24px;
+  font-weight: bold;
+
+  &__first-digit {
+    color: blue;
+  }
+
+  &__second-digit {
+    color: green;
+  }
+
+  &__result {
+    color: red;
+  }
+}
