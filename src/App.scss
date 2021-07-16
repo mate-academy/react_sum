@@ -1,1 +1,16 @@
-// styles go here
+.title {
+  color: #cd5c5c;
+}
+
+.sum {
+  font-weight: 600;
+  &--1 {
+    color: #ff0000;
+  }
+  &--2 {
+    color: #00ff00;
+  }
+  &--3 {
+    color: #0000ff;
+  }
+}
