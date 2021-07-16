@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Sum(props) {
-  const { a, b } = props;
+function Sum({ a, b }) {
   const s = a + b;
 
   return (
