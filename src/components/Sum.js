@@ -1,15 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Sum({ a, b }) {
+function Sum({ a = 0, b = 0 }) {
   return (
     <p>
-      Sum of&nbsp;
-      {a}
-      &nbsp;and&nbsp;
-      {b}
-      &nbsp;is&nbsp;
-      {a + b}
+      {`Sum of ${a} and ${b} is ${a + b}`}
     </p>
   );
 }
