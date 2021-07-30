@@ -1,1 +1,30 @@
-// styles go here
+$main-color: rgb(66, 240, 253);
+
+.container {
+  display: block;
+
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 50px;
+    height: 50px;
+    width: 300px;
+  }
+
+  .element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    height: 50px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 3px solid $main-color;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(66, 64, 64);
+    color: $main-color;
+  }
+}
