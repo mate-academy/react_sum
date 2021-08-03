@@ -3,6 +3,13 @@
 - Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
 
 ## Task
-Implement a component `Sum` accepting props `a` and `b` and rendering a
-paragraph with the text: "Sum of 2 and 1 is 3". `App` component should
-render 3 `Sum` components for `2 + 2`, `10 + 0` and `-5 + 5`
+Create a `Sum` component accepting optional props `a` and `b` and rendering
+a paragraph with the text: "Sum of 2 and 1 is 3". Replace numbers with actual
+values. If `a` or `b` are not passed, set them to 0.
+
+`App` should contains the next `Sum` components:
+- `a = 2` and `b = 3`
+- `a = 5` and `b = -5`
+- just `a = 10`
+- just `b = 5`
+- no params at all
