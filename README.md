@@ -13,3 +13,28 @@ values. If `a` or `b` are not passed, set them to 0.
 - just `a = 10`
 - just `b = 5`
 - no params at all
+
+**Hint**
+The linter requires you to put every JSX expression on the new line. So this
+markup:
+```JSX
+<h1>The {color} is great!</h1>
+```
+should be rewritten like this:
+```JSX
+<h1>
+  {'The '}
+  {color}
+  {' is great!'}
+</h1>
+```
+or like this
+```JSX
+<h1>
+  The
+  {' '}
+  {color}
+  {' '}
+  is great!
+</h1>
+```
