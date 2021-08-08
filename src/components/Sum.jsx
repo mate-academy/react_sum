@@ -11,5 +11,4 @@ const Sum = (a = 0, b = 0) (
     </p>
 );
 
-
 export default Sum;
