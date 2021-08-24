@@ -1,24 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Sum.scss';
 
-const Sum = ({
+export const Sum = ({
   a,
   b,
 }) => (
-  <p>
+  <p className="sum">
     Sum
     {' '}
     of
     {' '}
-    {a}
+    <span className="sum__parameter">
+      {a}
+    </span>
     {' '}
     and
     {' '}
-    {b}
+    <span className="sum__parameter">
+      {b}
+    </span>
     {' '}
     is
     {' '}
-    {a + b}
+    <span className="sum__result">
+      {a + b}
+    </span>
   </p>
 );
 
@@ -31,5 +38,3 @@ Sum.propTypes = {
   a: PropTypes.number,
   b: PropTypes.number,
 };
-
-export default Sum;
