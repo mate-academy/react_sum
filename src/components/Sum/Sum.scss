@@ -1,0 +1,14 @@
+.sum {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #16615b;
+
+  &__parameter {
+    font-weight: bold;
+    color: #801f6f;
+  }
+
+  &__result {
+    font-weight: bold;
+    color: #182281;
+  }
+}
