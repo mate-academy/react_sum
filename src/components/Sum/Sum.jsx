@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 import "./Sum.scss"
 
-export function Sum({x = 0, y = 0}) {
+export function Sum({x, y}) {
   return (
     <p className="sum">
       { 'Sum of ' }
@@ -14,6 +14,11 @@ export function Sum({x = 0, y = 0}) {
       <span className="sum__number"> {x + y} </span>
     </p>
   );
+}
+
+Sum.defaultProps = {
+  x: 0,
+  y: 0,
 }
 
 Sum.propTypes = {
