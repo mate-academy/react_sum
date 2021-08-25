@@ -4,22 +4,20 @@ import './Sum.scss';
 
 export function Sum({ a, b }) {
   return (
-    <>
-      <p className="paragraph">
-        {'Sum of '}
-        <b className="paragraph_digit">
-          {a}
-        </b>
-        {' and '}
-        <b className="paragraph_digit">
-          {b}
-        </b>
-        {' is '}
-        <b className="paragraph_digit">
-          {a + b}
-        </b>
-      </p>
-    </>
+    <p className="paragraph">
+      {'Sum of '}
+      <b className="paragraph__digit">
+        {a}
+      </b>
+      {' and '}
+      <b className="paragraph__digit">
+        {b}
+      </b>
+      {' is '}
+      <b className="paragraph__digit">
+        {a + b}
+      </b>
+    </p>
   );
 }
 
