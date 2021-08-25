@@ -1,0 +1,16 @@
+.sum {
+  display: flex;
+
+  &__number {
+    display: inline-block;
+    padding: 0 5px;
+    color: yellow;
+    transition: transform 0.3s, color 1s;
+
+    &:hover{
+      cursor: pointer;
+      color: red;
+      transform: scale(1.2);
+    }
+  }
+}
