@@ -1,0 +1,5 @@
+$accent-color: rgb(13, 134, 134);
+
+.sumLine:nth-child(2n) {
+  color: $accent-color;
+}
