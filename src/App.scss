@@ -1,1 +1,14 @@
-// styles go here
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #eee;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
