@@ -1,1 +1,20 @@
-// styles go here
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: orange;
+}
+
+.text {
+  margin: 0;
+  padding: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+}
