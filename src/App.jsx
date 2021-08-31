@@ -4,10 +4,7 @@ import './App.scss';
 
 const App = () => (
   <div>
-    <Sum
-      a={2}
-      b={3}
-    />
+    <Sum a={2} b={3} />
 
     <Sum
       a={5}
