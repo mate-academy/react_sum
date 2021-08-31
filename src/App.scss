@@ -1,1 +1,11 @@
-// styles go here
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sum {
+  font-size: 30px;
+  color: blue;
+}
