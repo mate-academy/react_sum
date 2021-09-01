@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export function Sum({ a, b }) {
+export function Sum(props) {
+  const { a, b } = props;
+
   return (
     <p>
       {`Sum of ${a} and ${b} is: ${a + b}`}
