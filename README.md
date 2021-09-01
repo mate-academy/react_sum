@@ -23,7 +23,7 @@ markup:
 should be rewritten like this:
 ```JSX
 <h1>
-  {'The '}
+  {'the '}
   {color}
   {' is great!'}
 </h1>
