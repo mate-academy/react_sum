@@ -7,8 +7,10 @@
   "author": "Mate Academy",
   "license": "GPL-3.0",
   "dependencies": {
+    "eslint-plugin-standard": "^5.0.0",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
+    "proptypes": "^1.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -17,6 +19,7 @@
     "@mate-academy/eslint-config-react": "*",
     "@mate-academy/stylelint-config": "*",
     "eslint": "^6.8.0",
+    "eslint-plugin-node": "^11.1.0",
     "gh-pages": "^2.2.0",
     "husky": "^4.0.10",
     "lint-staged": "^9.5.0",
