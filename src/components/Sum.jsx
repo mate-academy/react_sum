@@ -1,13 +1,10 @@
-// Don't forget to add default values an check types of props
 import PropTypes from 'prop-types';
 import React from 'react';
 
-function Sum({ a = 0, b = 0 }) {
+function Sum({ a, b }) {
   return (
     <p>
-      {
-      `Sum of ${a} and ${b} is ${a + b}`
-    }
+      {`Sum of ${a} and ${b} is ${a + b}`}
     </p>
   );
 }
