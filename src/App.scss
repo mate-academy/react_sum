@@ -1,1 +1,18 @@
-// styles go here
+* {
+  box-sizing: border-box;
+}
+  
+html {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: "Source Sans Pro", "Open Sans", Roboto, Arial, sans-serif;
+}
+  
+body {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background: #eee;
+}
