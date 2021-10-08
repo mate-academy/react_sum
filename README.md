@@ -17,19 +17,14 @@ values. If `a` or `b` are not passed, set them to 0.
 **Hint**
 The linter requires you to put every JSX expression on the new line. So this
 markup:
-```JSX
+```jsx
 <h1>The {color} is great!</h1>
 ```
 should be rewritten like this:
-```JSX
-<h1>
-  {'The '}
-  {color}
-  {' is great!'}
-</h1>
+```jsx
+<h1>{`The ${color} is great!`}</h1>
 ```
-or like this
-```JSX
+```jsx
 <h1>
   The
   {' '}
