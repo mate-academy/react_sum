@@ -1,0 +1,16 @@
+p {
+  color: rgb(27, 19, 19);
+}
+
+.number {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0 5px;
+  background-color: rgb(240, 224, 224);
+  border: 1px solid rgb(212, 180, 180);
+  border-radius: 2px;
+
+  &__sum {
+    color: rgb(212, 0, 0);
+  }
+}
