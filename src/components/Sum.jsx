@@ -20,7 +20,7 @@ Sum.defaultProps = {
   b: 0,
 };
 
-Sum.PropTypes = {
+Sum.propTypes = {
   a: PropTypes.number,
   b: PropTypes.number,
 };
