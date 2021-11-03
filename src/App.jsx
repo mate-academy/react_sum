@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.scss';
-import Sum from './components/Sum';
+import { Sum } from './components/Sum';
 
-const App = () => (
+export const App = () => (
   <>
     <Sum
       a={2}
@@ -26,5 +26,3 @@ const App = () => (
     />
   </>
 );
-
-export default App;
