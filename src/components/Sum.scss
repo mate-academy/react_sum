@@ -1,0 +1,21 @@
+.sum {
+  color: #d1d0d0;
+
+  letter-spacing: 0.2px;
+
+  &__type {
+    margin-right: 12px;
+
+    color: #5e5e5e;
+
+    font-size: 14px;
+  }
+
+  &__operand {
+    color: #4482d1;
+  }
+
+  &__result {
+    color: #ffb645;
+  }
+}
