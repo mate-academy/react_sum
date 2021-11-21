@@ -16,6 +16,8 @@ export const Sum = ({ a, b }) => (
     is
     {' '}
     <span className="sum__result">{a + b}</span>
+    ;
+    <span className="sum__comment">{`// a: ${a}; b: ${b}`}</span>
   </p>
 );
 
