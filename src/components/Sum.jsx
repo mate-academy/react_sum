@@ -5,16 +5,11 @@ import './Sum.scss';
 export const Sum = ({ a, b }) => (
   <p className="sum">
     <span className="sum__type">equation</span>
-    Sum of
-    {' '}
+    {'Sum of '}
     <span className="sum__operand">{a}</span>
-    {' '}
-    and
-    {' '}
+    {' and '}
     <span className="sum__operand">{b}</span>
-    {' '}
-    is
-    {' '}
+    {' is '}
     <span className="sum__result">{a + b}</span>
     ;
     <span className="sum__comment">{`// a: ${a}; b: ${b}`}</span>
