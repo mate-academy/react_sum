@@ -4,16 +4,11 @@ import PropTypes from 'prop-types';
 export function Sum({ a, b }) {
   return (
     <p>
-      Sum of
-      {' '}
+      {'Sum of  '}
       {a}
-      {' '}
-      and
-      {' '}
+      {' and '}
       {b}
-      {' '}
-      is
-      {' '}
+      {' is '}
       {a + b}
     </p>
   );
