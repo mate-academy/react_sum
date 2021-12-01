@@ -1,0 +1,8 @@
+.paragraph {
+  margin: 0;
+
+  &:not(:last-child) {
+    padding-bottom: 20px;
+  }
+
+}

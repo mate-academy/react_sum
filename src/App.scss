@@ -1,1 +1,26 @@
-// styles go here
+.sums {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+  &__card {
+    border-radius: 10px;
+    padding: 50px 30px 50px;
+    max-width: 200px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+
+  &__title {
+    margin: 0 0 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    font-size: 30px;
+    color: #4147C3;
+  }
+
+  &__paragraphs {
+    font-size: 16px;
+    color: #555;
+  }
+}
