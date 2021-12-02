@@ -1,1 +1,10 @@
-// styles go here
+.container {
+  &__sums {
+    width: 200px;
+    background-color: #cff7f7;
+  }
+
+  &__paragraph {
+    border: 2px solid #000;
+  }
+}
