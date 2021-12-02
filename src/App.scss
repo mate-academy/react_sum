@@ -1,1 +1,40 @@
-// styles go here
+$c-olive: #d3e4cd;
+$c-green: #99a799;
+
+html {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0 auto;
+
+    background: $c-olive;
+  }
+
+  &__calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    border-radius: 10%;
+    background: $c-green;
+  }
+}
