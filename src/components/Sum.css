@@ -1,10 +1,9 @@
 .list-item {
-  position: relative;
-  margin: 20px auto;
-  border: 3px solid #cadfcf;
+  margin-top: 20px;
   padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans", sans-serif;
+  border: 3px solid #cadfcf;
   border-radius: 4px;
   background: #fefefe;
   color: #231f20;
-  font-family: "Trebuchet MS", "Lucida Sans", sans-serif;
 }
