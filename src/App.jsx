@@ -1,16 +1,33 @@
 import React from 'react';
 import './App.scss';
 
+import { Sum } from './components/Sum';
+
 const App = () => (
-  <>
-    <p>Sum of 2 and 3 is 5</p>
-    <p>Sum of -5 and 5 is 0</p>
-    <p>Sum of 10 and 0 is 10</p>
-    <p>Sum of 0 and 5 is 5</p>
-    <p>Sum of 0 and 0 is 0</p>
-    {/* Replace paragraphs with Sum componets */}
-    {/* And remove comment lines :) */}
-  </>
+  <article className="sums">
+    <div className="sums__info">
+      <h1 className="sums__title">
+        Sum of numbers
+      </h1>
+      <ul className="sums__calculations">
+        <li className="sums__sum">
+          <Sum a={2} b={3} />
+        </li>
+        <li className="sums__sum">
+          <Sum a={5} b={-5} />
+        </li>
+        <li className="sums__sum">
+          <Sum a={10} />
+        </li>
+        <li className="sums__sum">
+          <Sum b={5} />
+        </li>
+        <li className="sums__sum">
+          <Sum />
+        </li>
+      </ul>
+    </div>
+  </article>
 );
 
 export default App;
