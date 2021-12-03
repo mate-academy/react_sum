@@ -6,7 +6,7 @@ export const Sum = ({
   a,
   b,
 }) => (
-  <li className="list-item">
+  <li className="list__item">
     Sum of
     {' '}
     {a}
