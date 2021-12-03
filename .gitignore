@@ -14,3 +14,5 @@ raw_reports
 cypress/screenshots
 cypress/videos
 reports
+
+.json
