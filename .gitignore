@@ -15,4 +15,5 @@ cypress/screenshots
 cypress/videos
 reports
 
-.json
+package-lock.json
+package.json
