@@ -26,21 +26,19 @@ body {
 
   &__title {
     margin: 0;
-    text-align: center;
     margin-bottom: 40px;
+    text-align: center;
     color: rgb(0, 9, 109);
     text-shadow: 1px 0 15px rgba(102, 102, 116, 0.509);
   }
 
   &__calculations {
     color:rgb(68, 73, 123)
-    
   }
 
   &__sum {
     list-style: circle;
-    transition: transform 0.3s;
-    transition-timing-function: linear;
+    transition: transform 0.3s linear;
 
     &:not(:last-child) {
       margin-bottom: 30px;
