@@ -1,1 +1,21 @@
-// styles go here
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: tomato;
+  color: #fff;
+  font-size: 20px;
+}
+
+.list {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+
+  &__item {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
