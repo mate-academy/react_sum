@@ -1,13 +1,15 @@
 .block {
   display: flex;
-  background-color: #168bafd5;
-  color: azure;
   margin: 0;
   padding: 0;
+  width: 300px;
+  
   text-align: center;
   justify-content: center;
   align-items: center;
-  width: 300px;
+  
+  background-color: #168bafd5;
+  color: azure;
   border: 1px solid #f3f3f3;
 
   &__item {
