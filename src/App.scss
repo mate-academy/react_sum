@@ -1,1 +1,51 @@
-// styles go here
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.sums {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(250, 247, 234);
+
+  &__info {
+    width: 500px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    background-color: rgba(145, 145, 145, 0.55);
+    box-shadow: 25px 20px 20px rgba(194, 186, 168, 0.42);
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(0, 9, 109);
+    text-shadow: 1px 0 15px rgba(102, 102, 116, 0.509);
+  }
+
+  &__calculations {
+    color:rgb(68, 73, 123)
+  }
+
+  &__sum {
+    list-style: circle;
+    transition: transform 0.3s linear;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+
+    &:hover {
+      transform: translateX(40px)
+    }
+  }
+}
