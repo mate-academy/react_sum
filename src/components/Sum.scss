@@ -1,0 +1,19 @@
+.block {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #168bafd5;
+  color: azure;
+  border: 1px solid #f3f3f3;
+
+  &__item {
+    color: #ffebcd;
+    text-align: center;
+  }
+}
