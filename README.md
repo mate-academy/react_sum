@@ -1,5 +1,5 @@
 # Sum component
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_sum/)
+- Replace `<your_account>` with your Github username in the [DEMO LINK](https://podlesnyi-pavel.github.io/react_sum/)
 - Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
 
 ## Task
@@ -20,6 +20,7 @@ Add props validation using `PropTypes` library and `defaultProps`
 **Hint**
 The linter requires you to put every JSX expression on the new line. So this
 markup:
+
 ```jsx
 <h1>The {color} is great!</h1>
 ```
@@ -36,3 +37,4 @@ should be rewritten like this:
   is great!
 </h1>
 ```
+
