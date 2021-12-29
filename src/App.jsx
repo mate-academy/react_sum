@@ -1,4 +1,5 @@
 import React from 'react';
+import Sum from './components/Sum';
 import './App.scss';
 
 const App = () => (
@@ -9,10 +10,6 @@ const App = () => (
     <Sum b={5} />
     <Sum />
   </>
-);
-
-const Sum = ({ a = 0, b = 0 }) => (
-  <p>{`Sum of ${a} and ${b} is ${a + b}`}</p>
 );
 
 export default App;
