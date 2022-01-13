@@ -1,1 +1,19 @@
-// styles go here
+.container {
+  width: max-content;
+  margin: 0 auto;
+  padding: 10px 30px;
+  background-color: rgb(101, 202, 206);
+  font-size: 20px;
+  border: 3px solid rgb(87, 60, 110);
+  border-radius: 20px;
+
+  &__paragraph {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: yellow;
+    background-color: rgb(87, 60, 110);
+    border: 2px solid yellow;
+    border-radius: 10px;
+  }
+}
