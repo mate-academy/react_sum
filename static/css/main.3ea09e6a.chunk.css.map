@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Sum.css"],"names":[],"mappings":"AAAA,WACE,aAAsB,CACtB,uBAAyB,CACzB,cAAe,CACf,QACF,CAEA,KACE,wBACF","file":"main.3ea09e6a.chunk.css","sourcesContent":[".paragraph {\n  color: rgb(52, 2, 109);\n  font-family: Times, serif;\n  font-size: 50px;\n  margin: 0;\n}\n\nbody {\n  background-color: rgb(226, 226, 226);\n}\n"]}
