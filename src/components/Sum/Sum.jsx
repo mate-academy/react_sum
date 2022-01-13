@@ -3,10 +3,7 @@ import PropTypes from 'prop-types';
 
 import './Sum.scss';
 
-export const Sum = ({
-  a,
-  b,
-}) => (
+export const Sum = ({ a, b }) => (
   <p className="calculation">
     {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
