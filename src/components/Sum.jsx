@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const Components = ({
+export const Sum = ({
   a,
   b,
 }) => (
@@ -10,12 +10,12 @@ export const Components = ({
   </p>
 );
 
-Components.defaultProps = {
+Sum.defaultProps = {
   a: 0,
   b: 0,
 };
 
-Components.propTypes = {
+Sum.propTypes = {
   a: PropTypes.number,
   b: PropTypes.number,
 };
