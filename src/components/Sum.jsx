@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const Components = (
+export const Components = ({
   a,
   b,
-) => (
+}) => (
   <p>
     {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
