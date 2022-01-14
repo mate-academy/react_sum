@@ -30,7 +30,7 @@
     "mochawesome": "^6.2.1",
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^5.1.0",
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.8.1",
     "stylelint": "^13.13.1"
   },
   "scripts": {
