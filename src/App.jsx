@@ -4,11 +4,11 @@ import { Sum } from './components/Sum';
 
 const App = () => (
   <>
-    <p><Sum a={2} b={3} />
-    <p><Sum a={-5} b={5} />
-    <p><Sum a={10} />
-    <p><Sum b={5} />
-    <p><Sum />
+    <Sum a={2} b={3} />
+    <Sum a={-5} b={5} />
+    <Sum a={10} />
+    <Sum b={5} />
+    <Sum />
   </>
 );
 
