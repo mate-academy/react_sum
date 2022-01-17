@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 ReactDOM.render(
-  <App />,
+  <App class="app" />,
   document.getElementById('root'),
 );
