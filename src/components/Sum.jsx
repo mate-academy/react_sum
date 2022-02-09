@@ -2,10 +2,9 @@ import React from 'react';
 import './Sum.scss';
 import PropTypes from 'prop-types';
 
-// eslint-disable-next-line arrow-parens
-const Sum = (props) => (
+const Sum = ({ a, b }) => (
   <p>
-    {`Sum of ${props.a} and ${props.b} is ${props.a + props.b}`}
+    {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
 );
 
