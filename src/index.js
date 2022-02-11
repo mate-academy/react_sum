@@ -6,3 +6,7 @@ ReactDOM.render(
   <App />,
   document.getElementById('root'),
 );
+
+// function logPosition(point) {
+//   console.log(`Current positions is (${point.x}, ${point.y})`)
+// }
