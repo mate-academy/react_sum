@@ -16,23 +16,3 @@ values. If `a` or `b` are not passed, set them to 0.
 
 ***Extra task (optional):***
 Add props validation using `PropTypes` library and `defaultProps`
-
-**Hint**
-The linter requires you to put every JSX expression on the new line. So this
-markup:
-```jsx
-<h1>The {color} is great!</h1>
-```
-should be rewritten like this:
-```jsx
-<h1>{`The ${color} is great!`}</h1>
-```
-```jsx
-<h1>
-  The
-  {' '}
-  {color}
-  {' '}
-  is great!
-</h1>
-```
