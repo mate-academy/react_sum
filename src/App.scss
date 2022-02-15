@@ -1,1 +1,11 @@
-// styles go here
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  transition: color 0.3s;
+  cursor: default;
+
+  &:hover {
+    color: red;
+  }
+}
