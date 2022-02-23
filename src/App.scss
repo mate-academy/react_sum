@@ -1,1 +1,31 @@
-// styles go here
+$border-left-top: 1px solid #e6e6e6;
+$border-right-bottom: 1px solid #222;
+$bg-color: #2e2e2e;
+$card-bg: #adadad;
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg-color;
+}
+
+.card {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  background-color: $card-bg;
+  border-radius: 20px;
+  box-shadow: 5px 5px 25px #1d1d1d;
+  border-bottom: $border-right-bottom;
+  border-right: $border-right-bottom;
+  border-left: $border-left-top;
+  border-top: $border-left-top;
+}
