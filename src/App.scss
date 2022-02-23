@@ -28,4 +28,8 @@ $card-bg: #adadad;
   border-right: $border-right-bottom;
   border-left: $border-left-top;
   border-top: $border-left-top;
+
+  &__result {
+    color: #b83c3c;
+  }
 }

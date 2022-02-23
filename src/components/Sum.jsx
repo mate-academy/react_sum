@@ -1,14 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const resultColor = {
-  color: '#b83c3c',
-};
-
 export const Sum = ({ a, b }) => (
   <p>
     {`Sum of ${a} and ${b} is `}
-    <span style={resultColor}>{a + b}</span>
+    <span className="card__result">{a + b}</span>
   </p>
 );
 
