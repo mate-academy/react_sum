@@ -1,1 +1,16 @@
-// styles go here
+body {
+  background-color: yellow;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  padding: 10px;
+  align-items: center;
+  border: 2px solid gold;
+  width: 100vh;
+  box-shadow: 0 0 10px;
+  background-color: gold;
+  border-radius: 10px;
+}
