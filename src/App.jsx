@@ -1,16 +1,17 @@
 import React from 'react';
+
 import './App.scss';
+
+import { Sum } from './components/Sum';
 
 const App = () => (
   <>
-    <p>Sum of 2 and 3 is 5</p>
-    <p>Sum of -5 and 5 is 0</p>
-    <p>Sum of 10 and 0 is 10</p>
-    <p>Sum of 0 and 5 is 5</p>
-    <p>Sum of 0 and 0 is 0</p>
-    {/* Replace paragraphs with Sum componets */}
-    {/* And remove comment lines :) */}
+    <Sum valA={2} valB={3} />
+    <Sum valA={-5} valB={5} />
+    <Sum valA={10} />
+    <Sum valB={5} />
+    <Sum />
   </>
 );
 
-export default App;
+export { App };
