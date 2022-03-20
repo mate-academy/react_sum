@@ -1,10 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const Sum = ({
-  valA,
-  valB,
-}) => (
+export const Sum = ({ valA, valB }) => (
   <p>
     {`Sum of ${valA} and ${valB} is ${valA + valB}`}
   </p>
