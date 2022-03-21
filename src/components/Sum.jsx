@@ -9,6 +9,11 @@ export function Sum({ a, b }) {
   );
 }
 
+Sum.defaultProps = {
+  a: 0,
+  b: 0,
+};
+
 Sum.propsType = {
   a: PropTypes.number,
   b: PropTypes.number,
