@@ -1,1 +1,17 @@
-// styles go here
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+  color: #fff;
+}
+
+body {
+  display: block;
+  margin: 30px auto;
+  width: max-content;
+
+  background: rgb(32, 32, 32);
+}
