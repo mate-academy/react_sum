@@ -3,7 +3,7 @@
 - Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
 
 ## Task
-Create a `Sum` component accepting OPTIONAL props `a` and `b` and rendering
+Create a `Sum` component accepting props `a` and `b` and rendering
 a paragraph with the text: "Sum of 2 and 1 is 3". Replace numbers with actual
 values. If `a` or `b` are not passed, set them to 0.
 
