@@ -2,11 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Sum({ a, b }) {
-  const resStr = `Sum of ${a} and ${b} is ${a + b}`;
-
   return (
     <p>
-      {resStr}
+      {`Sum of ${a} and ${b} is ${a + b}`}
     </p>
   );
 }
