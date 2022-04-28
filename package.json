@@ -13,6 +13,7 @@
     "react-scripts": "^4.0.3"
   },
   "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.16.7",
     "@cypress/webpack-dev-server": "^1.8.4",
     "@mate-academy/cypress-tools": "^1.0.4",
     "@mate-academy/eslint-config-react": "0.0.7",
