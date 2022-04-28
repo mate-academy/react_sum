@@ -1,5 +1,5 @@
 1. [CODE KNOWLEDGE] - Don't make all props required, if you don't need it. Use `defaultProps` for this purpose.
-2. [CODE STYLE] - In React, same ruleas in general html components. If there are 3 or more attributes, or values are too long - use new lines.
+2. [CODE STYLE] - In React, same rule as in general html components. If there are 3 or more attributes, or values are too long - use new lines.
 If no - single line is okay.
 
 BAD EXAMPLE:
@@ -33,7 +33,7 @@ BAD EXAMPLE:
     {a + b}
   </p>
  ```
-  
+
   GOOD EXAMPLE:
   ```
 <p>
