@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types';
+import React from 'react';
 
 export function Sum(props) {
   return (
-    `Sum of ${props.a} and ${props.b} is ${props.a + props.b}`
+    <p>
+      {`Sum of ${props.a} and ${props.b} is ${props.a + props.b}`}
+    </p>
   );
 }
 
