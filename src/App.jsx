@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import { Sum } from './Sum';
+import { Sum } from './components/Sum';
 
 const App = () => (
   <>
