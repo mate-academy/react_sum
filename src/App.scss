@@ -1,1 +1,22 @@
-// styles go here
+body {
+  background-color: blue;
+}
+
+p {
+  margin: 30px;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+
+  height: 70px;
+  line-height: 70px;
+
+  background-color: yellow;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+
+  color: black;
+  font-size: 30px;
+}
