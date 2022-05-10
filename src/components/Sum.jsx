@@ -20,7 +20,12 @@ export const Sum = ({
   </p>
 );
 
+Sum.defaultProps = {
+    a: 0,
+    b: 0,
+}
+
 Sum.propTypes = {
-  a: PropTypes.number.isRequired,
-  b: PropTypes.number.isRequired,
+  a: PropTypes.number,
+  b: PropTypes.number,
 };
