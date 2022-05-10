@@ -6,12 +6,7 @@ export const Sum = ({
   secondNumber,
 }) => (
   <p>
-    Sum of
-    {firstNumber}
-    and
-    {secondNumber}
-    is
-    {firstNumber + secondNumber}
+    Sum of {firstNumber} and {secondNumber} is {firstNumber + secondNumber}
   </p>
 );
 
