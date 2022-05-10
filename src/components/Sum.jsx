@@ -2,15 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export const Sum = ({
-  firstNumber,
-  secondNumber,
+  a,
+  b,
 }) => (
   <p>
-    Sum of {firstNumber} and {secondNumber} is {firstNumber + secondNumber}
+    Sum of
+    {' '}
+    {a}
+    {' '}
+    and
+    {' '}
+    {b}
+    {' '}
+    is
+    {' '}
+    {a + b}
   </p>
 );
 
 Sum.propTypes = {
-  firstNumber: PropTypes.number.isRequired,
-  secondNumber: PropTypes.number.isRequired,
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
 };
