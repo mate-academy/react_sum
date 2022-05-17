@@ -13,6 +13,3 @@ values. If `a` or `b` are not passed, set them to 0.
 - just `a = 10`
 - just `b = 5`
 - no params at all
-
-***Extra task (optional):***
-Add props validation using `PropTypes` library and `defaultProps`
