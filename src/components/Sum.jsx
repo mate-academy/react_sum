@@ -8,12 +8,15 @@ export const Sum = ({
   <p>
     <h2>
       Sum of
+      {' '}
       {a}
       {' '}
       and
+      {' '}
       {b}
       {' '}
       is
+      {' '}
       {a + b}
     </h2>
   </p>
