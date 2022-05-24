@@ -8,4 +8,4 @@ const Sum = ({ a = 0, b = 0 }) => (
   </d>
 );
 
-export default Sum;
+export { Sum };
