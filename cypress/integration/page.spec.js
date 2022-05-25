@@ -2,7 +2,6 @@ describe('Page', () => {
   before(() => {
     cy.visit('/');
   });
-
   it('should contain sum of 2 and 3', () => {
     cy.get('p')
       .eq(0)
