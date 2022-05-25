@@ -1,5 +1,4 @@
 import React from 'react';
-import './Sum.css';
 
 export const Sum = (props) => {
   const { a, b } = props;
