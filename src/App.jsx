@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import { Sum } from './components/Sum';
 
-const App = () => (
+export const App = () => (
   <>
     <Sum a={2} b={3} />
     <Sum a={-5} b={5} />
@@ -11,5 +11,3 @@ const App = () => (
     <Sum />
   </>
 );
-
-export default App;
