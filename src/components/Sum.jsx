@@ -1,7 +1,8 @@
 import React from 'react';
+import './Sum.css';
 
 export const Sum = props => (
-  <p>
+  <p className="pStyle">
     {`Sum of ${props.a} and ${props.b} is ${props.a + props.b}`}
   </p>
 );
