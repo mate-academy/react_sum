@@ -1,1 +1,29 @@
-// styles go here
+.sum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__item {
+    width: 500px;
+    height: 50px;
+
+    margin: 5px;
+
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+
+    background-color: rgb(76, 166, 165);
+
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      color: rgb(76, 166, 165);
+      border: 2px solid rgb(76, 166, 165);
+      background-color: rgb(255, 255, 255);
+      cursor: pointer;
+    }
+  }
+}
