@@ -7,11 +7,11 @@ export const Sum = ({ a = 0, b = 0 }) => (
   </p>
 );
 Sum.propTypes = {
-  a: PropTypes.string,
-  b: PropTypes.string,
+  a: PropTypes.number,
+  b: PropTypes.number,
 };
 
 Sum.defaultProps = {
-  a: 'Value: a',
-  b: 'Value: b',
+  a: 1,
+  b: 0,
 };
