@@ -1,1 +1,14 @@
-// styles go here
+.sum {
+  &__field {
+    width: 500px;
+    height: 50px;
+
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    border: dotted 1px black;
+
+    background-color: rgba(237, 192, 255, 0.5);
+  }
+}
