@@ -7,7 +7,7 @@ export const Sum = ({ a, b }) => (
   </p>
 );
 
-Sum.def = {
+Sum.defaultProps = {
   a: 0,
   b: 0,
 };
