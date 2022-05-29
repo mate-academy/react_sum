@@ -1,7 +1,7 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
 export const Sum = ({ a, b }) => (
-  // eslint-disable-next-line react/react-in-jsx-scope
   <p>{`Sum of ${a} and ${b} is ${a + b}`}</p>
 );
 
