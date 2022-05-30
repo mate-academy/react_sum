@@ -1,7 +1,7 @@
 // import { props } from 'cypress/types/bluebird';
 import React from 'react';
 import './App.scss';
-import Sum from './components/Sum';
+import { Sum } from './components/Sum';
 
 const values = {
   a: 2,
