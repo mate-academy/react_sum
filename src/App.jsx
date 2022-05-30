@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
-import Sum from './components/Sum';
-import SumProps from './components/SumProps';
+import { Sum } from './components/Sum';
+import { SumProps } from './components/SumProps';
 
 const App = () => (
   <>

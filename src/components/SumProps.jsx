@@ -1,4 +1,4 @@
-const SumProps = {
+export const SumProps = {
   sum1: {
     a: 2,
     b: 3,
@@ -19,5 +19,3 @@ const SumProps = {
 
   sum5: {},
 };
-
-export default SumProps;
