@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Sum = ({ a, b }) => (
   <p>
@@ -10,4 +11,11 @@ export const Sum = ({ a, b }) => (
 Sum.defaultProps = {
   a: 0,
   b: 0,
+};
+
+Sum.PropTypes = {
+  props: PropTypes.shape({
+    a: PropTypes.number,
+    b: PropTypes.number,
+  }),
 };
