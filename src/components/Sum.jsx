@@ -1,12 +1,12 @@
 import React from 'react';
 
 const Sum = ({ a, b }) => {
-  const aVal = a || 0;
-  const bVal = b || 0;
+  const aValue = a || 0;
+  const bValue = b || 0;
 
   return (
     <p>
-      Sum of {aVal} and {bVal} is {aVal + bVal}
+      Sum of {aValue} and {bValue} is {aValue + bValue}
     </p>
   );
 };
