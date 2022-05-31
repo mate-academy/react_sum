@@ -1,34 +1,28 @@
 import React from 'react';
 import './App.scss';
 import { Sum } from './components/Sum';
-import { SumProps } from './components/SumProps';
 
 const App = () => (
   <>
     <Sum
-      a={SumProps.sum1.a}
-      b={SumProps.sum1.b}
+      a={2}
+      b={3}
     />
 
     <Sum
-      a={SumProps.sum2.a}
-      b={SumProps.sum2.b}
+      a={-5}
+      b={5}
     />
 
     <Sum
-      a={SumProps.sum3.a}
-      b={SumProps.sum3.b}
+      a={10}
     />
 
     <Sum
-      a={SumProps.sum4.a}
-      b={SumProps.sum4.b}
+      b={5}
     />
 
-    <Sum
-      a={SumProps.sum5.a}
-      b={SumProps.sum5.b}
-    />
+    <Sum />
   </>
 );
 
