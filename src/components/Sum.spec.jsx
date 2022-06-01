@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from '@cypress/react';
-import { Sum } from './Sum';
+import Sum from './Sum';
 
 describe('Sum', () => {
   it('should plus two positive numbers', () => {
@@ -32,3 +32,5 @@ describe('Sum', () => {
     cy.get('p').should('contain', `Sum of 0 and 0 is 0`);
   });
 });
+
+export default Sum;
