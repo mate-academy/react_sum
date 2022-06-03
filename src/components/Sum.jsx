@@ -1,14 +1,9 @@
 import React from 'react';
 
-const Sum = ({ a, b }) => {
-  const aValue = a || 0;
-  const bValue = b || 0;
-
-  return (
-    <p>
-      Sum of {aValue} and {bValue} is {aValue + bValue}
-    </p>
-  );
-};
+const Sum = ({ a = 0, b = 0 }) => (
+  <p>
+    Sum of {a} and {b} is {a + b}
+  </p>
+);
 
 export default Sum;
