@@ -1,17 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Sum = ({
+export const Sum = ({
   a,
   b,
 }) => (
   <p>
-    <span>Sum of </span>
-    {a}
-    <span> and </span>
-    {b}
-    <span> is </span>
-    {a + b}
+    <span>{`Sum of ${a}`}</span>
+    <span>{` and ${b}`}</span>
+    <span>{` is ${a + b}`}</span>
   </p>
 );
 
@@ -24,5 +21,3 @@ Sum.propTypes = {
   a: PropTypes.number,
   b: PropTypes.number,
 };
-
-export { Sum };
