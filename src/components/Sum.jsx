@@ -6,9 +6,7 @@ export const Sum = ({
   b,
 }) => (
   <p>
-    <span>{`Sum of ${a}`}</span>
-    <span>{` and ${b}`}</span>
-    <span>{` is ${a + b}`}</span>
+    <span>{`Sum of ${a} and ${b} is ${a + b}`}</span>
   </p>
 );
 
