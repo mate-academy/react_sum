@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Sum = ({ nums }) => {
+const Sum = (nums) => {
   const {
     a = 0,
     b = 0,
