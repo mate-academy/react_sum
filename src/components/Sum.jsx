@@ -1,13 +1,11 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-const Sum = ({ a, b }) => (
+export const Sum = ({ a, b }) => (
   <p>
     {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
 );
-
-export default Sum;
 
 Sum.defaultProps = {
   a: 0,
