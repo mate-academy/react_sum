@@ -1,6 +1,6 @@
 # Sum component
 - Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_sum/)
-- Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
+- Follow the [React task guideline](https://AntonYegorov/react_task-guideline#react-tasks-guideline)
 
 ## Task
 Create a `Sum` component accepting props `a` and `b` and rendering
