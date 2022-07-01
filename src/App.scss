@@ -1,1 +1,8 @@
-// styles go here
+.test {
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: linear-gradient(70deg, rgb(0, 255, 149), rgb(255, 243, 80));
+  border-radius: 10px;
+}
