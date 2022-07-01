@@ -3,22 +3,22 @@
 If no - single line is okay.
 
 BAD EXAMPLE:
-```
- <Sum
+```jsx
+<Sum
   a={2}
   b={3}
 />
 ```
 
 GOOD EXAMPLE:
-```
+```jsx
 <Sum a={2} b={3} />
 ```
 
 3. [CODE STYLE] - Use string interpolation inside tag content
 
 BAD EXAMPLE:
-```
+```jsx
 <p>
   Sum of
     {' '}
@@ -32,10 +32,10 @@ BAD EXAMPLE:
     {' '}
     {a + b}
   </p>
- ```
+```
   
-  GOOD EXAMPLE:
-  ```
+GOOD EXAMPLE:
+```jsx
 <p>
   {`Sum of ${a} and ${b} is ${a + b}`}
 </p>
