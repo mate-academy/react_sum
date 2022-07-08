@@ -38,7 +38,7 @@
   "scripts": {
     "start": "mate-scripts start -l",
     "build": "mate-scripts build",
-    "test": "mate-scripts test",
+    "test": "mate-scripts test -l",
     "lint-js": "mate-scripts lint -j",
     "lint-css": "mate-scripts lint -s",
     "lint": "npm run lint-js && npm run lint-css",
@@ -60,7 +60,7 @@
     ]
   },
   "mateAcademy": {
-    "_comment": "Replace 'reactTypescript' to 'react' if you want use React without Typescript",
+    "_comment": "Replace 'react' with 'reactTypescript' if you want to use React with Typescript",
     "projectType": "react",
     "tests": {
       "_comment": "Add `cypressComponents: true` to enable component tests",
