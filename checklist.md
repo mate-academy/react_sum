@@ -1,6 +1,5 @@
-1. [CODE KNOWLEDGE] - Don't make all props required, if you don't need it. Use `defaultProps` for this purpose.
-2. [CODE STYLE] - In React, same ruleas in general html components. If there are 3 or more attributes, or values are too long - use new lines.
-If no - single line is okay.
+1. [CODE STYLE] - If you have < 3 attribues on a tag and the values are short 
+write the tag in one line (to make it easier to write and read).
 
 BAD EXAMPLE:
 ```jsx
@@ -15,23 +14,23 @@ GOOD EXAMPLE:
 <Sum a={2} b={3} />
 ```
 
-3. [CODE STYLE] - Use string interpolation inside tag content
+2. [CODE STYLE] - Use string interpolation inside tag content
 
-BAD EXAMPLE:
+BAD EXAMPLE: (it is hard to get the final result)
 ```jsx
 <p>
   Sum of
-    {' '}
-    {a}
-    {' '}
-    and
-    {' '}
-    {b}
-    {' '}
-    is
-    {' '}
-    {a + b}
-  </p>
+  {' '}
+  {a}
+  {' '}
+  and
+  {' '}
+  {b}
+  {' '}
+  is
+  {' '}
+  {a + b}
+</p>
 ```
   
 GOOD EXAMPLE:
