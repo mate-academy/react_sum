@@ -14,5 +14,5 @@ values. If `a` or `b` are not passed, set them to 0.
 
 ## Instructions
 - Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
-- Open 1 more terminal and run tests with `npm test` to ensure your solutions is correct
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_sum/) and add it to PR description
+- Open one more terminal and run tests with `npm test` to ensure your solutions is correct
+- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_sum/) and add it to the PR description
