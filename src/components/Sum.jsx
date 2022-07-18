@@ -13,4 +13,6 @@ export const Sum = ({ a = 0, b = 0 }) => {
 Sum.prototype = {
   a: PropTypes.number.isRequired,
   b: PropTypes.number.isRequired,
+  result: PropTypes.number,
+  resultLine: PropTypes.string,
 };
