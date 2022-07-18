@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.scss';
 import { Sum } from './components/Sum';
 
 export const App = () => (
