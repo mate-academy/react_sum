@@ -1,4 +1,4 @@
-import React from 'react';git commit -am 'Solution'
+import React from 'react';
 import Sum from './components/Sum';
 
 const App = () => (
