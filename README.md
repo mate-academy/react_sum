@@ -1,4 +1,4 @@
-# Sum Component 
+# Sum Component
 
 Create a `Sum` component accepting `a` and `b` props and rendering a paragraph with a text like `Sum of 2 and 1 is 3`. Replace numbers with actual
 values. If the `a` or `b` props are not passed, set them to `0`.
@@ -15,4 +15,4 @@ The `App` should contain the next `Sum` components:
 ## Instructions
 - Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
 - Open one more terminal and run tests with `npm test` to ensure your solution is correct.
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_sum/) and add it to the PR description.
+- Replace `<your_account>` with your Github username in the [DEMO LINK](https://alexbardyshev.github.io/react_sum/) and add it to the PR description.
