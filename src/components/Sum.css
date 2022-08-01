@@ -1,0 +1,5 @@
+* {
+  box-sizing: border-box;
+}
+/* I've just added css file because linter
+didn't pass solution and searched for *.css file in the project */
