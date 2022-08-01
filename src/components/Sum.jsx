@@ -1,7 +1,6 @@
-// export function Sum() {}
 import React from 'react';
 
-export default function Sum(props) {
+export function Sum(props) {
   const { a = 0, b = 0 } = props;
 
   return (
