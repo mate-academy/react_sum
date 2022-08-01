@@ -1,4 +1,4 @@
-# Sum Component
+# Sum Component 
 
 Create a `Sum` component accepting `a` and `b` props and rendering a paragraph with a text like `Sum of 2 and 1 is 3`. Replace numbers with actual
 values. If the `a` or `b` props are not passed, set them to `0`.
