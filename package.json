@@ -11,6 +11,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3"
+    
   },
   "devDependencies": {
     "@cypress/webpack-dev-server": "^1.8.4",
@@ -43,7 +44,7 @@
     "lint-css": "mate-scripts lint -s",
     "lint": "npm run lint-js && npm run lint-css",
     "update": "mate-scripts update",
-    "postinstall": "npm run update && cypress verify",
+    "postinstall": "npm run update && set CYPRESS_VERIFY_TIMEOUT=220000 && cypress verify",
     "predeploy": "npm run build",
     "deploy": "mate-scripts deploy"
   },
