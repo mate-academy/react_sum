@@ -6,16 +6,11 @@ export const Sum = ({
   b,
 }) => (
   <p>
-    Sum of
-    {' '}
+    {'Sum of '}
     {a}
-    {' '}
-    and
-    {' '}
+    {' and '}
     {b}
-    {' '}
-    is
-    {' '}
+    {' is '}
     {a + b}
   </p>
 );
