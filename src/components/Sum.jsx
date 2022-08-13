@@ -1,5 +1,4 @@
 import React from 'react';
-import './Sum.scss';
 
 export const Sum = ({ a = 0, b = 0 }) => (
   <p>
