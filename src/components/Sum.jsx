@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export function Sum({
-  a,
-  b
-}) {
+export function Sum({ a, b }) {
   return (
-    <p>Sum of {a} and {b} is { a + b }</p>
+    <p>
+        {`Sum of ${a} and ${b} is ${a + b}`}
+    </p>
   );
 }
 
