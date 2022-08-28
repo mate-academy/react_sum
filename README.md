@@ -2,10 +2,14 @@
 
 Create a `Sum` component accepting `a` and `b` props and rendering a paragraph with a text like `Sum of 2 and 1 is 3`. Replace numbers with actual
 values. If the `a` or `b` props are not passed, set them to `0`.
+Создайте компонент `Sum`, принимающий свойства `a` и `b` и отображающий абзац с текстом, например, `Sum of 2 and 1 is 3`. Замените цифры на реальные
+ценности. Если реквизиты `a` или `b` не переданы, установите для них значение `0`.
 
 **Please note:** use named export (not default).
+**Обратите внимание:** используйте именованный экспорт (не по умолчанию).
 
 The `App` should contain the next `Sum` components:
+«Приложение» должно содержать следующие компоненты «Сумма»:
 
 - `a = 2` and `b = 3`;
 - `a = -5` and `b = 5`;
