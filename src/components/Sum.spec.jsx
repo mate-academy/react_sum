@@ -3,32 +3,39 @@ import { mount } from '@cypress/react';
 import { Sum } from './Sum';
 
 describe('Sum', () => {
-  it('should plus two positive numbers', () => {
-    const a = 2;
-    const b = 3;
+  it('should sum positive numbers', () => {
+    mount(<Sum a={7} b={10} />);
 
-    mount(<Sum a={a} b={b} />);
-    cy.get('p').should('contain', `Sum of ${a} and ${b} is 5`);
+    cy.get('p').should('have.text', 'Sum of 7 and 10 is 17');
   });
 
-  it('should plus positive and negative numbers', () => {
-    const a = -5;
-    const b = 5;
+  it('should sum positive and negative numbers', () => {
+    mount(<Sum a={6} b={-4} />);
 
-    mount(<Sum a={a} b={b} />);
-    cy.get('p').should('contain', `Sum of ${a} and ${b} is 0`);
+    cy.get('p').should('have.text', `Sum of 6 and -4 is 2`);
   });
 
-  it('should plus two negative numbers', () => {
-    const a = -2;
-    const b = -3;
+  it('should sum negative numbers', () => {
+    mount(<Sum a={-40} b={-2} />);
 
-    mount(<Sum a={a} b={b} />);
-    cy.get('p').should('contain', `Sum of ${a} and ${b} is -5`);
+    cy.get('p').should('have.text', `Sum of -40 and -2 is -42`);
   });
 
-  it(`should return 0 if 'a' and 'b' not passed`, () => {
+  it('should sum "a" with 0 if "b" is not given', () => {
+    mount(<Sum a={6} />);
+
+    cy.get('p').should('have.text', `Sum of 6 and 0 is 6`);
+  });
+
+  it('should sum 0 with "b" if "a" is not given', () => {
+    mount(<Sum b={12} />);
+
+    cy.get('p').should('have.text', `Sum of 0 and 12 is 12`);
+  });
+
+  it('should sum 0 with 0 if "a" and "b" are not given', () => {
     mount(<Sum />);
-    cy.get('p').should('contain', `Sum of 0 and 0 is 0`);
+
+    cy.get('p').should('have.text', `Sum of 0 and 0 is 0`);
   });
 });
