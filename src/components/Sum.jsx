@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-one-expression-per-line */
+
 import React from 'react';
 
 const Sum = ({
@@ -5,12 +7,7 @@ const Sum = ({
   b,
 }) => (
   <p>
-    Sum of
-    {` ${a} `}
-    and
-    {` ${b} `}
-    is
-    {` ${a + b}`}
+    Sum of {a} and {b} is {a + b}
   </p>
 );
 
