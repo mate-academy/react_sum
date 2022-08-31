@@ -4,18 +4,18 @@ import { Sum } from './components/Sum';
 export const App = () => (
   <>
     <Sum
-      firstValue={2}
-      secondValue={3}
+      a={2}
+      b={3}
     />
     <Sum
-      firstValue={-5}
-      secondValue={5}
+      a={-5}
+      b={5}
     />
     <Sum
-      firstValue={10}
+      a={10}
     />
     <Sum
-      secondValue={5}
+      b={5}
     />
     <Sum />
   </>

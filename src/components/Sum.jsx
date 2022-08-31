@@ -1,14 +1,14 @@
 import React from 'react';
 
-export function Sum({ firstValue, secondValue }) {
-  const sum = firstValue + secondValue;
+export function Sum({ a, b }) {
+  const sum = a + b;
 
   return (
-    <p>{`Sum of ${firstValue} and ${secondValue} is ${sum}`}</p>
+    <p>{`Sum of ${a} and ${b} is ${sum}`}</p>
   );
 }
 
 Sum.defaultProps = {
-  firstValue: 0,
-  secondValue: 0,
+  a: 0,
+  b: 0,
 };
