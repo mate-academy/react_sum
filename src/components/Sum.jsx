@@ -3,7 +3,7 @@ import React from 'react';
 export function Sum({ a, b }) {
   return (
     <p>
-      {`Sum of ${a || 0} and ${b || 0} is ${a + b}`}
+      {`Sum of ${a} and ${b} is ${a + b}`}
     </p>
   );
 }
