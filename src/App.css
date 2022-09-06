@@ -1,3 +1,14 @@
 iframe {
   display: none;
 }
+
+body {
+  margin: 20vh auto;
+  background-color: #000;
+  color: coral;
+  font-size: 24px;
+}
+
+p {
+  text-align: center;
+}
