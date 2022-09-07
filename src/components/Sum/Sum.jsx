@@ -12,7 +12,7 @@ Sum.defaultProps = {
   secondValue: 0,
 };
 
-Sum.PropTypes = {
+Sum.propTypes = {
   firstValue: PropTypes.number,
   secondValue: PropTypes.number,
 };
