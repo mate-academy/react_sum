@@ -9,5 +9,6 @@ export const App = () => (
     <Sum firstValue={-5} secondValue={5} />
     <Sum firstValue={10} />
     <Sum secondValue={5} />
+    <Sum firstValue={0} secondValue={0} />
   </>
 );
