@@ -7,11 +7,11 @@ export const Sum = ({
 }) => (
   <>
     <p>
-      Sum of
+      Sum of&nbsp;
       {a}
-      and
+      &nbsp;and&nbsp;
       {b}
-      is
+      &nbsp;is&nbsp;
       {a + b}
     </p>
   </>
