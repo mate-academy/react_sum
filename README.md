@@ -8,7 +8,7 @@ values. If the `a` or `b` props are not passed, set them to `0`.
 The `App` should contain the next `Sum` components:
 
 - `a = 2` and `b = 3`;
-- `a = -5` and `b = 5`;
+- `a = -5` and `a = -5`;
 - just `a = 10`;
 - just `b = 5`;
 - no params at all.
@@ -17,4 +17,4 @@ The `App` should contain the next `Sum` components:
 
 - Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
 - Open one more terminal and run tests with `npm test` to ensure your solution is correct.
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_sum/) and add it to the PR description.
+- Replace `<your_account>` with your Github username in the [DEMO LINK](https://Yaroslav-Radchuk.github.io/react_sum/) and add it to the PR description.
