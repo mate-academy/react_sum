@@ -1,0 +1,13 @@
+.sum {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: mediumslateblue;
+  width: max-content;
+  margin: 20px auto;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  border: 1px solid teal;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+}
