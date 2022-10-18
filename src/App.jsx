@@ -12,7 +12,7 @@ export const App = () => (
 
     <Sum a={0} b={5} />
 
-    <Sum a={0} b={0} />
+    <Sum />
 
     {/* Replace paragraphs with Sum componets */}
     {/* And remove commented lines :) */}
