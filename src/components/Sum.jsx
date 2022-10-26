@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const Sum = ({ a, b }) => (<p>{`the sum of ${a} and ${b} is ${a + b}`}</p>);
+export const Sum = ({ a, b }) => (<p>{`sum of ${a} and ${b} is ${a + b}`}</p>);
 
 Sum.defaultProps = {
-    a: 0,
-    b: 0,
-}
+  a: 0,
+  b: 0,
+};
