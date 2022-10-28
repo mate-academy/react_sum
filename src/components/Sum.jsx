@@ -3,10 +3,10 @@ import React from 'react';
 export const Sum = ({ a = 0, b = 0 }) => (
   <p>
     Sum of
-    {a}
+    {` ${a} `}
     and
-    {b}
+    {` ${b} `}
     is
-    {a + b}
+    {` ${a + b}`}
   </p>
 );
