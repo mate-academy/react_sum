@@ -1,3 +1,47 @@
 iframe {
   display: none;
 }
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  margin: 0;
+  margin-right: -50%;
+  border-radius: 16px;
+  padding: 12px 48px;
+
+  background-color: rgb(32, 31, 31);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+  padding: 6px 24px;
+}
+
+p {
+  display: inline-block;
+
+  border-radius: 16px;
+  padding: 6px 24px;
+
+  font-size: 32px;
+  color: white;
+}
+
+.first {
+  background-color: rgb(35, 210, 131);
+}
+
+.second {
+  background-color: rgb(76, 144, 213);
+}
+
+.sum {
+  background-color: rgb(213, 76, 208);
+}
