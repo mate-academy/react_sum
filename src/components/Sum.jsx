@@ -3,11 +3,10 @@ import React from 'react';
 export function Sum({
   a = 0,
   b = 0,
-  text = `Sum of ${a} and ${b} is ${a + b}`,
 }) {
   return (
     <p>
-      {text}
+      {`Sum of ${a} and git is ${a + b}`}
     </p>
   );
 }
