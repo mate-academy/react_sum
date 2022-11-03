@@ -9,3 +9,8 @@ export const Sum = (props) => {
     </p>
   );
 };
+
+Sum.defaultProps = {
+  a: 0,
+  b: 0,
+};
