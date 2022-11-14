@@ -1,4 +1,3 @@
-import { number } from 'prop-types';
 import React from 'react';
 
 export const Sum = ({ a = 0, b = 0 }) => (
@@ -6,8 +5,3 @@ export const Sum = ({ a = 0, b = 0 }) => (
     {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
 );
-
-Sum.prototype = {
-  a: number,
-  b: number,
-};
