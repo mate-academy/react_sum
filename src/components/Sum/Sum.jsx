@@ -1,18 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const Sum = ({ num1, num2 }) => (
+export const Sum = ({ a, b }) => (
   <p>
-    {`Sum of ${num1} and ${num2} is ${num1 + num2}`}
+    {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
 );
 
 Sum.proptype = {
-  num1: PropTypes.number.isRequired,
-  num2: PropTypes.number.isRequired,
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
 };
 
 Sum.defaultProps = {
-  num1: 0,
-  num2: 0,
+  a: 0,
+  b: 0,
 };
