@@ -1,10 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const Sum = ({
-  a,
-  b,
-}) => (
+export const Sum = ({ a, b }) => (
   <div className="Sum">
     <p>
       {`Sum of ${a} and ${b} is ${a + b}`}
