@@ -1,1 +1,3 @@
-export * from './Sum';
+import { Sum } from './Sum';
+
+export { Sum };
