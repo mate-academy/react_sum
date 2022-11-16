@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export function Sum(props) {
+export function Sum({ a, b }) {
   return (
-    <p clasName="paragraph">
-      {`Sum of ${props.a} and ${props.b} is ${props.a + props.b}`}
+    <p>
+      {`Sum of ${a} and ${b} is ${a + b}`}
     </p>
   );
 }
