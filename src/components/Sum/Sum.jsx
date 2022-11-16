@@ -5,7 +5,7 @@ export function Sum({ a, b }) {
   const result = a + b;
 
   return (
-    <p className="Sum">
+    <p>
       {`Sum of ${a} and ${b} is ${result}`}
     </p>
   );
