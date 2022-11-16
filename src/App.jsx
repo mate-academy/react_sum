@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import './components/Sum.css';
 
 import Sum from './components/Sum';
 

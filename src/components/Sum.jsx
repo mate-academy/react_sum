@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Sum({ a, b }) {
   return (
-    <p className="sumOfProps">
+    <p>
       {`Sum of ${a} and ${b} is ${a + b}`}
     </p>
   );
