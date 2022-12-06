@@ -4,19 +4,20 @@ import { Sum } from './components/Sum';
 
 export const App = () => (
   <>
-    {sumIt(2, 3)}
-    {sumIt(-5, 5)}
-    {sumIt(10)}
-    {sumIt(0, 5)}
-    {sumIt()}
+    <Sum
+      a={2}
+      b={3}
+    />
+    <Sum
+      a={-5}
+      b={5}
+    />
+    <Sum
+      a={10}
+    />
+    <Sum
+      b={5}
+    />
+    <Sum />
   </>
 );
-
-function sumIt(x = 0, y = 0) {
-  return (
-    <Sum
-      a={x}
-      b={y}
-    />
-  );
-}
