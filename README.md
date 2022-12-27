@@ -9,7 +9,7 @@ The `App` should contain the next `Sum` components:
 
 - `a = 2` and `b = 3`;
 - `a = -5` and `b = 5`;
-- just `a = 10`;
+- ju\st `a = 10`;
 - just `b = 5`;
 - no params at all.
 
