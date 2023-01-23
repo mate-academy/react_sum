@@ -1,1 +1,1 @@
-export * from './Sum'
+export * from './Sum';
