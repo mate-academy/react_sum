@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Sum = ({ a, b }) => (
+export const Sum = ({ a, b }) => (
   <p>
     Sum of
     {` ${a} `}
@@ -15,5 +15,3 @@ Sum.defaultProps = {
   a: 0,
   b: 0,
 };
-
-export { Sum };
