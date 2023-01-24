@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export function Sum({ a = 0, b = 0 }) {
   return (
@@ -7,3 +8,8 @@ export function Sum({ a = 0, b = 0 }) {
     </p>
   );
 }
+
+Sum.propTypes = {
+  a: PropTypes.number.isRequired,
+  b: PropTypes.number.isRequired,
+};
