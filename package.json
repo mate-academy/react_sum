@@ -67,5 +67,20 @@
       "cypress": true,
       "cypressComponents": true
     }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": [
+          "**/*.css",
+          "**/*.scss",
+          "**/*.html"
+        ],
+        "options": {
+          "singleQuote": false
+        }
+      }
+    ]
   }
 }
