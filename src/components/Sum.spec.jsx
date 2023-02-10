@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from '@cypress/react';
-import { Sum } from './index';
+import { Sum } from './Sum';
 
 describe('Sum', () => {
   it('should sum positive numbers', () => {
