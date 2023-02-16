@@ -1,6 +1,12 @@
+import React from 'react';
+
 export function Sum({
   a = 0,
   b = 0,
 }) {
-  return `Sum of ${a} and ${b} is ${a + b}`;
+  return (
+    <p>
+      {`Sum of ${a} and ${b} is ${a + b}`}
+    </p>
+  );
 }
