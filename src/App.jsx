@@ -1,21 +1,15 @@
 import React from 'react';
 import './App.css';
+import Sum from './components/Sum';
 
-export const App = ({ a, b }) => (
+export const num = {
+  a: 2,
+  b: 3,
+};
+
+export const App = () => (
   <>
-    <p>
-      Sum of
-      {' '}
-      {a}
-      {' '}
-      and
-      {' '}
-      {b}
-      {' '}
-      is
-      {' '}
-      {a + b}
-      {' '}
-    </p>
+    <Sum {...num} />
+
   </>
 );
