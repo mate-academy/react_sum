@@ -1,22 +1,24 @@
 import React from 'react';
 
 function Sum({ a, b }) {
-  <>
-    <p>
-      Sum of
-      {' '}
-      {a}
-      {' '}
-      and
-      {' '}
-      {b}
-      {' '}
-      is
-      {' '}
-      {a + b}
-      {' '}
-    </p>
-  </>;
+  const result = a + b;
+
+    <>
+      <p>
+        Sum of
+        {' '}
+        {a}
+        {' '}
+        and
+        {' '}
+        {b}
+        {' '}
+        is
+        {' '}
+        {result}
+        {' '}
+      </p>
+    </>;
 }
 
 export default Sum;
