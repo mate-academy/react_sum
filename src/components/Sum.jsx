@@ -5,6 +5,18 @@ export function Sum({
   b = 0,
 }) {
   return (
-    <p>Sum of {a} and {b} is {a + b}</p>
+    <p>
+      Sum of
+      {' '}
+      {a}
+      {' '}
+      and
+      {' '}
+      {b}
+      {' '}
+      is
+      {' '}
+      {a + b}
+    </p>
   );
 }
