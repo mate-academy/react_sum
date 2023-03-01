@@ -1,6 +1,6 @@
-import React from "react";
-import "./App.css";
-import { Sum } from "./components/Sum";
+import React from 'react';
+import './App.css';
+import { Sum } from './components/Sum';
 
 export const App = () => (
   <>
@@ -8,7 +8,7 @@ export const App = () => (
       a={2}
       b={3}
     />
-    
+
     <Sum
       a={-5}
       b={5}
