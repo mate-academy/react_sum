@@ -8,3 +8,8 @@ export function Sum({ a, b }) {
     </p>
   );
 }
+
+Sum.defaultProps = {
+  a: 0,
+  b: 0,
+};
