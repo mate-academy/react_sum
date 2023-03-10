@@ -1,4 +1,3 @@
-import React from 'react';
 import { mount } from '@cypress/react';
 import { Sum } from './Sum';
 
@@ -27,8 +26,8 @@ describe('Sum', () => {
     cy.get('p').should('contain', `Sum of ${a} and ${b} is -5`);
   });
 
-  it(`should return 0 if 'a' and 'b' not passed`, () => {
-    mount(<Sum />);
-    cy.get('p').should('contain', `Sum of 0 and 0 is 0`);
+  it('should return 0 if \'a\' and \'b\' not passed', () => {
+    mount(<Sum a={undefined} b={undefined} />);
+    cy.get('p').should('contain', 'Sum of 0 and 0 is 0');
   });
 });

@@ -1,0 +1,9 @@
+{
+  "extends": "@mate-academy/students-ts-config",
+  "compilerOptions": {
+    "moduleResolution": "node",
+  },
+  "include": [
+    "src"
+  ]
+}

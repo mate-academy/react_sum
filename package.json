@@ -17,7 +17,7 @@
     "@mate-academy/cypress-tools": "^1.0.4",
     "@mate-academy/eslint-config-react": "0.0.7",
     "@mate-academy/eslint-config-react-typescript": "^1.0.1",
-    "@mate-academy/scripts": "^1.2.3",
+    "@mate-academy/scripts": "^1.2.8",
     "@mate-academy/students-ts-config": "*",
     "@mate-academy/stylelint-config": "*",
     "@types/node": "^17.0.23",
@@ -61,7 +61,7 @@
   },
   "mateAcademy": {
     "_comment": "Replace 'reactTypescript' to 'react' if you want use React without Typescript",
-    "projectType": "react",
+    "projectType": "reactTypescript",
     "tests": {
       "_comment": "Add `cypressComponents: true` to enable component tests",
       "cypress": true,
