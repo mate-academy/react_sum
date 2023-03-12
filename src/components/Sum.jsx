@@ -1,8 +1,8 @@
 import React from 'react';
 
-export function Sum(props = 0) {
-  const aNum = +props.a || 0;
-  const bNum = +props.b || 0;
+export function Sum({ a = 0, b = 0 }) {
+  const aNum = +a;
+  const bNum = +b;
 
   return (
     <p>
