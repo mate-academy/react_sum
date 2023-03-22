@@ -1,1 +1,3 @@
-// export function Sum() {}
+export function Sum(a = 0, b = 0) {
+  return a + b;
+}
