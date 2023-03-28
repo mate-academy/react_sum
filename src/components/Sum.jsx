@@ -6,12 +6,7 @@ export function Sum({
 }) {
   return (
     <p>
-      Sum of
-      {` ${x} `}
-      and
-      {` ${y} `}
-      is
-      {` ${x + y} `}
+      {`Sum of ${x} and ${y} is ${x + y}`}
     </p>
   );
 }
