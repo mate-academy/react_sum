@@ -11,5 +11,3 @@ export const App = () => (
     <Sum />
   </div>
 );
-
-export default App;

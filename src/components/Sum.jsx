@@ -16,5 +16,3 @@ Sum.propTypes = {
   a: PropTypes.number,
   b: PropTypes.number,
 };
-
-export default Sum;
