@@ -1,20 +1,13 @@
 import React from 'react';
 import './App.css';
-
-function Paragraph({ a = 0, b = 0 }) {
-  const text = `Sum of ${a} and ${b}  is ${a + b}`;
-
-  return (
-    <p>{ text }</p>
-  );
-}
+import Sum from './components/Sum';
 
 export const App = () => (
   <>
-    <Paragraph a={2} b={3} />
-    <Paragraph a={-5} b={5} />
-    <Paragraph a={10} />
-    <Paragraph b={5} />
-    <Paragraph />
+    <Sum a={2} b={3} />
+    <Sum a={-5} b={5} />
+    <Sum a={10} />
+    <Sum b={5} />
+    <Sum />
   </>
 );
