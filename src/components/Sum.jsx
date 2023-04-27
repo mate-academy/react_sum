@@ -1,14 +1,7 @@
-// export function Sum() {}
 import React from 'react';
 
 export function Sum(props) {
-  const a = props.a || 0;
-  const b = props.b || 0;
-  const text = `Sum of ${a || 0} and ${b || 0} is ${a + b}`;
+  const { a = 0, b = 0 } = props;
 
-  return (
-    <>
-      <p>{text}</p>
-    </>
-  );
+  return <p>{`Sum of ${a} and ${b} is ${a + b}`}</p>;
 }
