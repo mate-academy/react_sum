@@ -1,15 +1,10 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 
-export function Sum(props) {
+export function Sum({ a = 0, b = 0 }) {
   return (
     <p>
-      Sum of {props.a} and {props.b} is {props.a + props.b}
+      Sum of {a} and {b} is {a + b}
     </p>
   );
 }
-
-Sum.defaultProps = {
-  a: 0,
-  b: 0,
-};
