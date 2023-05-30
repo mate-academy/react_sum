@@ -11,10 +11,10 @@ The `App` should contain the next `Sum` components:
 - `a = -5` and `b = 5`;
 - just `a = 10`;
 - just `b = 5`;
-- no params at all.
+- no params at all
 
 ## Instructions
 
 - Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
 - Open one more terminal and run tests with `npm test` to ensure your solution is correct.
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_sum/) and add it to the PR description.
+- Replace `<your_account>` with your Github username in the [DEMO LINK](https://mariuszgit.github.io/react_sum/) and add it to the PR description.
