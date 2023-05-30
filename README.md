@@ -11,7 +11,7 @@ The `App` should contain the next `Sum` components:
 - `a = -5` and `b = 5`;
 - just `a = 10`;
 - just `b = 5`;
-- no params at all.
+- no params at all
 
 ## Instructions
 
