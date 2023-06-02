@@ -1,3 +1,21 @@
 iframe {
   display: none;
 }
+
+:root {
+  background-color: #9babb8;
+  color: #967e76;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: #d7c0ae;
+  border-radius: 20px;
+
+}
