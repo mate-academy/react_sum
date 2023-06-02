@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sum.css';
 
-export function Sum({ a = 0, b = 0 }) {
+function Sum({ a = 0, b = 0 }) {
   return (
     <p>{`Sum of ${a} and ${b} is ${a + b}`}</p>
   );
