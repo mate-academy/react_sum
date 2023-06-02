@@ -1,0 +1,13 @@
+p {
+  margin: 20px;
+  padding: 10px;
+  background-color: #066b4e;
+  width: 250px;
+
+  text-align: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+  border-radius: 50px;
+}
