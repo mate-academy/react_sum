@@ -1,4 +1,3 @@
-// export function Sum() {}
 import { number } from 'prop-types';
 import React from 'react';
 
