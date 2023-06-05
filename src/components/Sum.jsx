@@ -5,11 +5,6 @@ export const Sum = ({
   b = 0,
 }) => (
   <p>
-    <span>Sum of </span>
-    {a}
-    <span> and </span>
-    {b}
-    <span> is </span>
-    {a + b}
+    {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
 );
