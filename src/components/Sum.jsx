@@ -5,9 +5,8 @@ export const Sum = ({
   b = 0,
 }) => {
   const sumOfNums = a + b;
-  const text = `Sum of ${a} and ${b} is ${sumOfNums}`;
 
   return (
-    <p>{ text }</p>
+    <p>{`Sum of ${a} and ${b} is ${sumOfNums}`}</p>
   );
 };
