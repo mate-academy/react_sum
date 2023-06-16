@@ -7,7 +7,6 @@ module.exports = {
       peerDependencies: false,
     }],
     'react/prop-types': 0,
-    'react/react-in-jsx-scope': 0,
     'max-len': ['error', {
       ignoreTemplateLiterals: true,
       ignoreComments: true,
