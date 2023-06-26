@@ -1,6 +1,6 @@
 export const Sum = ({
-  a,
-  b,
+  a = 0,
+  b = 0,
 }) => (
   <p>
     Sum of
