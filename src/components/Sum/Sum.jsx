@@ -3,16 +3,6 @@ export const Sum = ({
   b = 0,
 }) => (
   <p className="Sum">
-    Sum of
-    {' '}
-    {a}
-    {' '}
-    and
-    {' '}
-    {b}
-    {' '}
-    is
-    {' '}
-    {a + b}
+    {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
 );
