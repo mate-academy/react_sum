@@ -14,15 +14,10 @@ export const App = () => (
     />
     <Sum
       a={10}
-      b={undefined}
     />
     <Sum
-      a={undefined}
       b={5}
     />
-    <Sum
-      a={undefined}
-      b={undefined}
-    />
+    <Sum />
   </>
 );
