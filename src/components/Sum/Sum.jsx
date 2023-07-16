@@ -1,5 +1,5 @@
-export const Sum = ({ firstNumber = 0, secondNumber = 0 }) => {
-  const sum = firstNumber + secondNumber;
+export const Sum = ({ a = 0, b = 0 }) => {
+  const sum = a + b;
 
-  return <p>{`Sum of ${firstNumber} and ${secondNumber} is ${sum}`}</p>;
+  return <p>{`Sum of ${a} and ${b} is ${sum}`}</p>;
 };
