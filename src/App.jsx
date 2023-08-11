@@ -3,7 +3,6 @@ import './App.css';
 import { Sum } from './components/Sum/Sum';
 
 export const App = () => (
-  <div>
     <>
       <Sum
         a={2}
@@ -21,5 +20,4 @@ export const App = () => (
       />
       <Sum />
     </>
-  </div>
 );
