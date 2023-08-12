@@ -25,8 +25,5 @@ export const App = () => (
 
       <Sum />
     </>
-
-    {/* Replace paragraphs with Sum componets */}
-    {/* And remove commented lines :) */}
   </>
 );
