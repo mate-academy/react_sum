@@ -5,18 +5,18 @@ import { Sum } from './components/Sum/Sum';
 export const App = () => (
   <>
     <Sum
-      num1={2}
-      num2={3}
+      a={2}
+      b={3}
     />
     <Sum
-      num1={-5}
-      num2={5}
+      a={-5}
+      b={5}
     />
     <Sum
-      num1={10}
+      a={10}
     />
     <Sum
-      num2={5}
+      b={5}
     />
     <Sum />
   </>
