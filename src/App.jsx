@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+// eslint-disable-next-line
 import { Sum } from './components/Sum/Sum';
 
 export const App = () => (
