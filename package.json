@@ -15,6 +15,7 @@
     "sass": "^1.63.4"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.15.0",
     "@cypress/webpack-dev-server": "^1.8.4",
     "@mate-academy/cypress-tools": "^1.0.4",
     "@mate-academy/eslint-config-react": "0.0.11",
