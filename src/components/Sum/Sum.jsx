@@ -1,1 +1,9 @@
-// export const Sum = () => ();
+// import { sum } from "cypress/types/lodash";
+
+export const Sum = ({ a = 0, b = 0 }) => (
+  <>
+    <p>
+      {`Sum of ${a} and ${b} is ${a + b}`}
+    </p>
+  </>
+);
