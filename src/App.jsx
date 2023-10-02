@@ -14,7 +14,11 @@ export const App = () => (
     />
     <Sum
       a={10}
-      b={5}
+      b={0}
+    />
+    <Sum
+      a={0}
+      b={10}
     />
     <Sum />
   </div>
