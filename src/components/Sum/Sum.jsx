@@ -1,7 +1,7 @@
 
-export const Sum = ({ firstValue = 0, secondValue = 0 }) => (
+export const Sum = ({ a = 0, b = 0 }) => (
   <p>
-    {`Sum of ${firstValue} and ${secondValue}`}
-    {` is ${firstValue + secondValue}`}
+    {`Sum of ${a} and ${b}`}
+    {` is ${a + b}`}
   </p>
 );
