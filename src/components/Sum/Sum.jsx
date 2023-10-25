@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const Sum = ({ firstNum = 0, secondNum = 0 }) => (
+export const Sum = ({ a = 0, b = 0 }) => (
   <p>
-    {`Sum of ${firstNum} and ${secondNum} is ${firstNum + secondNum}`}
+    {`Sum of ${a} and ${b} is ${a + b}`}
   </p>
 );
 
