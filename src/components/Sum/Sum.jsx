@@ -1,6 +1,6 @@
 // export const Sum = () => ();
 export function Sum({ a = 0, b = 0 }) {
-  const space = "   ";
+  const space = '   ';
 
   return (
     <p>
