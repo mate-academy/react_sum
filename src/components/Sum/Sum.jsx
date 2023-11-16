@@ -1,8 +1,8 @@
 export const Sum = ({ a, b }) => (
   <p>
-    `Sum of 
+    Sum of 
     {a} and 
     {b} is 
-    {a + b}`
-    </p>
+    {a + b}
+  </p>
 );
