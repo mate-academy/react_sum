@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-one-expression-per-line */
-export default function Sum({ a, b }) {
+export function Sum({ a, b }) {
   let x = a;
   let y = b;
 
