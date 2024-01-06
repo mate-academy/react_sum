@@ -37,7 +37,7 @@
   },
   "scripts": {
     "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && mate-scripts start -l",
-    "build": "mate-scripts build",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && mate-scripts build",
     "test": "export SET NODE_OPTIONS=--openssl-legacy-provider && mate-scripts test -l",
     "lint-js": "mate-scripts lint -j",
     "lint-css": "mate-scripts lint -s",
