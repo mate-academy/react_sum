@@ -6,6 +6,7 @@
   "author": "Mate Academy",
   "license": "GPL-3.0",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@cypress/react": "^5.12.4",
     "classnames": "^2.5.1",
     "postcss": "^8.4.12",
