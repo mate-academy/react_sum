@@ -18,5 +18,6 @@ export const App = () => (
     <Sum
       b={5}
     />
+    <Sum />
   </>
 );
