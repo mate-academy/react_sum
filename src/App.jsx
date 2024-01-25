@@ -3,7 +3,7 @@ import { Sum } from './components/Sum/Sum';
 import './App.scss';
 
 export const App = () => (
-  <>
+  <React.Fragment>
     <Sum
       a={2}
       b={3}
@@ -28,5 +28,5 @@ export const App = () => (
       a={0}
       b={0}
     />
-  </>
+  </React.Fragment>
 );
