@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import ReactDom from 'react-dom';
 import { App } from './App';
 
