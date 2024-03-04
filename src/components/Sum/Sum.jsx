@@ -1,5 +1,3 @@
-function Sum({ a = 0, b = 0 }) {
-  return <div>{`Sum of ${a} and ${b} is ${a + b}`}</div>;
-}
-
-export default Sum;
+export const Sum = ({ a = 0, b = 0 }) => (
+  <p>{`Sum of ${a} and ${b} is ${a + b}`}</p>
+);
