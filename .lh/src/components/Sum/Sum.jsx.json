@@ -1,0 +1,62 @@
+{
+    "sourceFile": "src/components/Sum/Sum.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1710773986315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710773999201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,5 @@\n // export const Sum = () => ();\n-const \n+const\n+S\n+u\n+m=\n"
+                },
+                {
+                    "date": 1710774004903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,2 @@\n // export const Sum = () => ();\n-const\n-S\n-u\n-m=\n+const Sum =\n"
+                },
+                {
+                    "date": 1710774014640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+// export const Sum = () => ();\n+const Sum = ()\n"
+                },
+                {
+                    "date": 1710774022742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n // export const Sum = () => ();\n-const Sum = ()\n-// export const Sum = () => ();\n-const Sum =\n+const Sum = () => (\n+  \n+)\n"
+                },
+                {
+                    "date": 1710774047339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+// export const Sum = () => ();\n+const Sum = () => (\n+  return \n+)\n"
+                },
+                {
+                    "date": 1710774122293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,4 @@\n // export const Sum = () => ();\n-const Sum = () => (\n-  return \n+const Sum = ({}) => (\n+  return\n )\n-// export const Sum = () => ();\n-const Sum = () => (\n-  \n-)\n"
+                },
+                {
+                    "date": 1710774127382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n // export const Sum = () => ();\n-const Sum = ({}) => (\n+const Sum = ({a = 0, b = }) => (\n   return\n )\n"
+                },
+                {
+                    "date": 1710774145436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n // export const Sum = () => ();\n-const Sum = ({a = 0, b = }) => (\n+const Sum = ({a = 0, b = 0 }) => (\n   return\n )\n"
+                },
+                {
+                    "date": 1710774160520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+// export const Sum = () => ();\n+const Sum = ({ a = 0, b = 0 }) => (\n+  const\n+)\n"
+                },
+                {
+                    "date": 1710774183845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n // export const Sum = () => ();\n const Sum = ({ a = 0, b = 0 }) => (\n-  const sum = a\n+  const sum = a \n )\n"
+                },
+                {
+                    "date": 1710774231679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n // export const Sum = () => ();\n const Sum = ({ a = 0, b = 0 }) => {\n   const sum = a + b;\n \n-  return ()\n+  return (\n+    \n+  )\n }\n \n \n"
+                }
+            ],
+            "date": 1710773986315,
+            "name": "Commit-0",
+            "content": "// export const Sum = () => ();\nconst \n"
+        }
+    ]
+}
