@@ -1,0 +1,18 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1710776761413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1710776761413,
+            "name": "Commit-0",
+            "content": "# Sum Component\n\nCreate a `Sum` component accepting `a` and `b` props and rendering a paragraph with a text like `Sum of 2 and 1 is 3`. Replace numbers with actual\nvalues. If the `a` or `b` props are not passed, set them to `0`.\n\n**Please note:** use named export (not default).\n\nThe `App` should contain the next `Sum` components:\n\n- `a = 2` and `b = 3`;\n- `a = -5` and `b = 5`;\n- just `a = 10`;\n- just `b = 5`;\n- no params at all.\n\n## Instructions\n\n- Install Prettier Extention and use this [VSCode settings](https://mate-academy.github.io/fe-program/tools/vscode/settings.json) to enable format on save.\n- Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).\n- Open one more terminal and run tests with `npm test` to ensure your solution is correct.\n- Replace `<your_account>` with your Github username in the [DEMO LINK](https://.github.io/react_sum/) and add it to the PR description.\n"
+        }
+    ]
+}
