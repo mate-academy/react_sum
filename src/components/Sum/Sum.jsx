@@ -1,5 +1,5 @@
 // export const Sum = () => ();
-const Sum = ({ a = 0, b = 0 }) => {
+export const Sum = ({ a = 0, b = 0 }) => {
   const sum = a + b;
 
   return (
@@ -8,5 +8,3 @@ const Sum = ({ a = 0, b = 0 }) => {
     </p>
   );
 };
-
-export { Sum };
