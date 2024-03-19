@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/App.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1710780732183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710780744423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import './App.scss';\n \n export const App = () => (\n   <>\n-  \n+    \n     <p>Sum of 2 and 3 is 5</p>\n     <p>Sum of -5 and 5 is 0</p>\n     <p>Sum of 10 and 0 is 10</p>\n     <p>Sum of 0 and 5 is 5</p>\n"
+                },
+                {
+                    "date": 1710780750386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n import React from 'react';\n import './App.scss';\n+import { Sum}\n \n export const App = () => (\n   <>\n-    \n+\n     <p>Sum of 2 and 3 is 5</p>\n     <p>Sum of -5 and 5 is 0</p>\n     <p>Sum of 10 and 0 is 10</p>\n     <p>Sum of 0 and 5 is 5</p>\n"
+                },
+                {
+                    "date": 1710780758251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react';\n import './App.scss';\n-import { Sum }\n+import { Sum } from './'\n \n export const App = () => (\n   <>\n \n"
+                },
+                {
+                    "date": 1710780777221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import { Sum } from './components/Sum/Sum'\n \n export const App = () => (\n   <>\n-\n+    <Sum />\n     <p>Sum of 2 and 3 is 5</p>\n     <p>Sum of -5 and 5 is 0</p>\n     <p>Sum of 10 and 0 is 10</p>\n     <p>Sum of 0 and 5 is 5</p>\n"
+                }
+            ],
+            "date": 1710780732183,
+            "name": "Commit-0",
+            "content": "import React from 'react';\nimport './App.scss';\n\nexport const App = () => (\n  <>\n  \n    <p>Sum of 2 and 3 is 5</p>\n    <p>Sum of -5 and 5 is 0</p>\n    <p>Sum of 10 and 0 is 10</p>\n    <p>Sum of 0 and 5 is 5</p>\n    <p>Sum of 0 and 0 is 0</p>\n    {/* Replace paragraphs with Sum componets */}\n    {/* And remove commented lines :) */}\n  </>\n);\n"
+        }
+    ]
+}

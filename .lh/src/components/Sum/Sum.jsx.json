@@ -1,0 +1,86 @@
+{
+    "sourceFile": "src/components/Sum/Sum.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 17,
+            "patches": [
+                {
+                    "date": 1710780255074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710780276365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,5 @@\n-export const Sum = () => ();\n+export const Sum = () => (\n+  return (\n+    ''\n+  )\n+);\n"
+                },
+                {
+                    "date": 1710780302565,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-export const Sum = () => (\n+export const Sum = (props) => (\n   return (\n     ''\n   )\n );\n"
+                },
+                {
+                    "date": 1710780374772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const Sum = (props) => (\n   return (\n-    ''\n+    \n   )\n );\n"
+                },
+                {
+                    "date": 1710780379915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const Sum = (props) => (\n   return (\n-    \n+    {props}\n   )\n );\n"
+                },
+                {
+                    "date": 1710780445543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-export const Sum = (props) => (\n+export const Sum = (props) => {(}\n   return (\n     {props}\n   )\n );\n"
+                },
+                {
+                    "date": 1710780452083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-export const Sum = (props) => {(}\n+export const Sum = (props) => {\n   return (\n     {props}\n   )\n-);\n+  };\n"
+                },
+                {
+                    "date": 1710780474802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const Sum = (props) => {\n   return (\n-    {props}\n+    \n   )\n-  };\n+};\n"
+                },
+                {
+                    "date": 1710780480361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+export const Sum = (props) => {\n+  return (\n+    `Sum of `\n+  )\n+};\n"
+                },
+                {
+                    "date": 1710780492141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,5 @@\n export const Sum = (props) => {\n   return (\n-    `Sum of `\n+    <p></p>\n   )\n };\n-export const Sum = (props) => {\n-  return (\n-    \n-  )\n-};\n"
+                },
+                {
+                    "date": 1710780501182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const Sum = (props) => {\n   return (\n-    <p></p>\n+    <p>Sum of {props.a} and {props.b} </p>\n   )\n };\n"
+                },
+                {
+                    "date": 1710780512316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const Sum = (props) => {\n   return (\n-    <p>Sum of {props.a} and {props.b} </p>\n+    <p>Sum of {props.a} and {props.b} is {</p>\n   )\n };\n"
+                },
+                {
+                    "date": 1710780518559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const Sum = (props) => {\n   return (\n-    <p>Sum of {props.a} and {props.b} is {</p>\n+    <p>Sum of {props.a} and {props.b} is {props.a + props.b}</p>\n   )\n };\n"
+                },
+                {
+                    "date": 1710781193838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const Sum = (props) => {\n   return (\n-    <p>Sum of {props.a} and {props.b} is {props.a + props.b}</p>\n+    Sum of {props.a} and {props.b} is {props.a + props.b}\n   )\n };\n"
+                },
+                {
+                    "date": 1710836857330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const Sum = (props) => {\n   return (\n-    Sum of {props.a} and {props.b} is {props.a + props.b}\n+  <p>Sum of {props.a} and {props.b} is {props.a + props.b}</p>\n   )\n };\n"
+                },
+                {
+                    "date": 1710836968324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const Sum = (props) => {\n   return (\n-  <p>Sum of {props.a} and {props.b} is {props.a + props.b}</p>\n+    <p>Sum of {props.a} and {props.b } is {props.a + props.b}</p>\n   )\n };\n"
+                },
+                {
+                    "date": 1710836973954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export const Sum = (props) => {\n   return (\n-    <p>Sum of {props.a} and {props.b || 0} is {props.a + props.b}</p>\n+    <p>Sum of {props.a || -} and {props.b || 0} is {props.a + props.b}</p>\n   )\n };\n"
+                },
+                {
+                    "date": 1710837131274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+export const Sum = (props) => {\n+  return (\n+    <p>Sum of {props.a || 0} and {props.b || 0} is {props.a || 0 + props.b}</p>\n+  );\n+};\n"
+                }
+            ],
+            "date": 1710780255074,
+            "name": "Commit-0",
+            "content": "export const Sum = () => ();\n"
+        }
+    ]
+}
