@@ -1,5 +1,5 @@
-import React from 'react';
 import { mount } from '@cypress/react18';
+import React from 'react';
 import { Sum } from './Sum';
 
 describe('Sum', () => {
