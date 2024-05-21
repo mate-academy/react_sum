@@ -17,8 +17,9 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@mate-academy/eslint-config-react": "latest",
-    "@mate-academy/scripts": "^1.7.9",
+    "@mate-academy/scripts": "^1.8.1",
     "@mate-academy/stylelint-config": "latest",
+    "cross-env": "^7.0.3",
     "cypress": "^12.17.4",
     "eslint": "^7.32.0",
     "eslint-plugin-cypress": "^2.11.2",
@@ -28,7 +29,7 @@
     "mochawesome-report-generator": "^6.2.0",
     "postcss": "^8.4.12",
     "prettier": "^3.2.5",
-    "sass": "^1.72.0",
+    "sass": "^1.77.2",
     "stylelint": "^15.11.0"
   },
   "scripts": {
