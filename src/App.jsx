@@ -4,10 +4,10 @@ import { Sum } from './components/Sum/Sum';
 
 export const App = () => (
   <>
-    <Sum numA={2} numB={3} />
-    <Sum numA={-5} numB={5} />
-    <Sum numA={10} />
-    <Sum numA={5} />
+    <Sum a={2} b={3} />
+    <Sum a={-5} b={5} />
+    <Sum a={10} />
+    <Sum b={5} />
     <Sum />
   </>
 );
