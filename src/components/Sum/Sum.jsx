@@ -1,9 +1,3 @@
-const Sum = ({ a, b }) => (
-  <>
-    <div>
-      Sum of {a} and {b} is {a + b}
-    </div>
-  </>
-);
+const Sum = ({ a = 0, b = 0 }) => <p>{`Sum of ${a} and ${b} is ${a + b}`}</p>;
 
 export default Sum;
