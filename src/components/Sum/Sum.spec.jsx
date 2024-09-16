@@ -39,3 +39,4 @@ describe('Sum', () => {
     cy.get('p').should('have.text', `Sum of 0 and 0 is 0`);
   });
 });
+
