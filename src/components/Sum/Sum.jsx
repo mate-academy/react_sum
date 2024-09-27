@@ -1,7 +1,7 @@
-export default function Sum({ t1 = 0, t2 = 0 }) {
+export default function Sum({ a = 0, b = 0 }) {
   return (
     <p>
-      Sum of {t1} and {t2} is {t1 + t2}
+      Sum of {a} and {b} is {a + b}
     </p>
   );
 }
