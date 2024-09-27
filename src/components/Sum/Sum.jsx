@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Sum({ t1 = 0, t2 = 0 }) {
   return (
     <p>
