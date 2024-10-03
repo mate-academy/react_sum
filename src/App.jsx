@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import { Sum }git add ./src from './components/Sum/Sum';
+import { Sum } from './components/Sum/Sum';
 
 export const App = () => (
   <>
