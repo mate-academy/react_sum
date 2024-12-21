@@ -1,5 +1,5 @@
 describe('Page', () => {
-  beforeEach(() => {
+  before(() => {
     cy.visit('/');
   });
 
