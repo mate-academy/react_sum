@@ -1,3 +1,5 @@
+[DEMO LINK](https://maksym2493.github.io/react_sum/)
+
 # Sum Component
 
 Create a `Sum` component accepting `a` and `b` props and rendering a paragraph with a text like `Sum of 2 and 1 is 3`. Replace numbers with actual
