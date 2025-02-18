@@ -19,8 +19,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      # fix rollup issue
-      - run: rm -rf node_modules package-lock.json
       - run: npm install
       - run: npm test -- -l
       - name: Upload tests report(cypress mochaawesome merged HTML report)
