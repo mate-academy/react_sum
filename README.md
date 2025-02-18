@@ -1,21 +1,32 @@
-# Sum Component
+# Sum
 
-Create a `Sum` component accepting `a` and `b` props and rendering a paragraph with a text like `Sum of 2 and 1 is 3`. Replace numbers with actual
-values. If the `a` or `b` props are not passed, set them to `0`.
+## 🎮 About the Project
+A simple React component called `Sum` that takes `a` and `b` as props and displays a message in the format:  
+**"Sum of {a} and {b} is {a + b}."**  
 
-**Please note:** use named export (not default).
+This project demonstrates the use of props, JSX, and component rendering in React.
 
-The `App` should contain the next `Sum` components:
+## 🚀 Tech Stack
+- **HTML** (BEM methodology for structured markup)
+- **CSS** (Bulma for styling)
+- **JavaScript** (Dynamic logic)
+- **React** (Component-based architecture)
+- **ReactDOM** (Efficient rendering)
 
-- `a = 2` and `b = 3`;
-- `a = -5` and `b = 5`;
-- just `a = 10`;
-- just `b = 5`;
-- no params at all.
+## 🛠️ Tools & Dependencies
+- **ESLint** – Ensuring code quality  
+- **Prettier** – Code formatting for readability  
+- **Cypress** – End-to-end testing  
+- **Mochawesome** – Test reporting  
+- **Babel** – JavaScript compiler for modern syntax  
 
-## Instructions
+## 📌 Features
+✅ Displays the sum of two numbers dynamically using props  
+✅ Clean and modular React component  
+✅ Follows best practices for JSX and component-based development  
 
-- Install Prettier Extention and use this [VSCode settings](https://mate-academy.github.io/fe-program/tools/vscode/settings.json) to enable format on save.
-- Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
-- Open one more terminal and run tests with `npm test` to ensure your solution is correct.
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_sum/) and add it to the PR description.
+## 🌐 Demo
+🔗 [Live Demo](https://AndriiZakharenko.github.io/sum/)
+
+## 📜 License
+This project is forked from 💻 [Mate Academy](https://github.com/mate-academy/react_sum)
