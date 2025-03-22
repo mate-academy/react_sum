@@ -3,7 +3,7 @@ import './App.scss';
 import { Sum } from './components/Sum/Sum';
 
 export const App = () => (
-  // Components are already written
+  // Components are already written in one line!
   <>
     <Sum a={2} b={3} />
     <Sum a={-5} b={5} />
