@@ -1,4 +1,4 @@
-1. [CODE STYLE] - If you have < 3 attribues on a tag and the values are short 
+1. [CODE STYLE] - If you have < 3 attribues on a tag and the values are short
 write the tag in one line (to make it easier to write and read).
 
 BAD EXAMPLE:
@@ -32,7 +32,7 @@ BAD EXAMPLE: (it is hard to get the final result)
   {a + b}
 </p>
 ```
-  
+
 GOOD EXAMPLE:
 ```jsx
 <p>
