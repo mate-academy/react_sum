@@ -1,8 +1,11 @@
 // export const Sum = () => ();
 
-export const Sum = ({ a = 0, b = 0 }) => {
-  const sum = a + b;
+export const Sum = ({ a, b }) => {
+  if (a === undefined || b === undefined) {
+    return <p>Please provide values for both a and b props</p>;
+  }
 
+  const sum = a + b;
   return (
     <p>
       Sum of {a} and {b} is {sum}
