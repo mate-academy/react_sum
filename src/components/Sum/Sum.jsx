@@ -1,1 +1,10 @@
-// export const Sum = () => ();
+// Create a Sum component using named export
+export function Sum({ a = 0, b = 0 }) {
+  const result = a + b;
+
+  return (
+    <p>
+      Sum of {a} and {b} is {result}.
+    </p>
+  );
+}
