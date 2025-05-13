@@ -1,7 +1,10 @@
-export function Sum({ a = 0, b = 0 }) {
+export function Sum({ a, b }) {
+  const numA = a ?? 0;
+  const numB = b ?? 0;
+
   return (
     <p>
-      Sum of {a} and {b} is {a + b}
+      Sum of {numA} and {numB} is {numA + numB}
     </p>
   );
 }
