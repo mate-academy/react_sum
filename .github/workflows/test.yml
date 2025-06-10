@@ -2,11 +2,10 @@ name: Test
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   run_tests:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -14,18 +13,28 @@ jobs:
         node-version: [20.x]
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-      # fix rollup issue
-      - run: rm -rf node_modules package-lock.json
-      - run: npm install
-      - run: npm test -- -l
-      - name: Upload tests report(cypress mochaawesome merged HTML report)
-        if: ${{ always() }}
+
+      - name: Clean and install dependencies
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
+
+      - name: Show package.json scripts
+        run: cat package.json
+
+      - name: Run Cypress Component Tests
+        run: npm run test:ci
+
+      - name: Upload tests report (mochawesome)
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: report
-          path: reports
+          path: raw_reports
