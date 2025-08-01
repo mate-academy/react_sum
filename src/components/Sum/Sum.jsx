@@ -2,7 +2,11 @@
 function Sum({ a = 0, b = 0 }) {
   const sum = a + b;
 
-  return `Sum of ${a} and ${b} is ${sum}`;
+  return (
+    <p>
+      `Sum of ${a} and ${b} is ${sum}`;
+    </p>
+  );
 }
 
 export default Sum;
