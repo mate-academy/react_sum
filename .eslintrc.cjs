@@ -3,6 +3,13 @@ module.exports = {
     browser: true,
     es2024: true,
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx'],
+      },
+    },
+  },
   extends: [
     'standard',
     'plugin:react/recommended',
@@ -20,6 +27,17 @@ module.exports = {
   plugins: ['jsx-a11y', 'import', 'react', 'prettier'],
   rules: {
     'function-paren-newline': ['error', 'consistent'],
+    // Removendo a regra "import/extensions" que causa conflito
+    // A regra "settings" já cuida da resolução de extensões,
+    // permitindo que você omita ".jsx" nas importações.
+    // 'import/extensions': [
+    //   'error',
+    //   'always',
+    //   {
+    //     js: 'never',
+    //     jsx: 'never',
+    //   },
+    // ],
     'comma-dangle': [
       'error',
       {
