@@ -1,5 +1,5 @@
 import './App.scss';
-import { Sum } from './components/Sum';
+import {Sum} from "./componentes/Sum.jsx"
 
 export const App = () => (
   <>
