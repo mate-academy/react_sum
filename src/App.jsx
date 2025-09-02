@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.scss';
 
-export const App = ({a = 0,b = 0}) => (
+import React from 'react';
+import './App.scss';
+import { Sum } from './Sum';
+
+export const App = () => (
   <>
-    <p>Sum of {a} and {b} is {a + b}</p>
-    <p>Sum of {a} and {b} is {a + b}</p>
-    <p>Sum of {a} and {b} is {a + b}</p>
-    <p>Sum of {a} and {b} is {a + b}</p>
-    <p>Sum of {a} and {b} is {a + b}</p>
-  
+    <Sum a={1} b={2} />
+    <Sum a={3} b={4} />
+    <Sum a={5} b={6} />
+    <Sum a={7} b={8} />
+    <Sum /> 
   </>
 );
