@@ -18,7 +18,22 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['jsx-a11y', 'import', 'react', 'prettier'],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx'],
+      },
+    },
+  },
   rules: {
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+      },
+    ],
     'function-paren-newline': ['error', 'consistent'],
     'comma-dangle': [
       'error',
