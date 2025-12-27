@@ -4,11 +4,11 @@ import { Sum } from './components/Sum/Sum';
 
 export const App = () => (
   <>
-    <Sum numOne={2} numTwo={3} sum={5} />
-    <Sum numOne={-5} numTwo={5} sum={0} />
-    <Sum numOne={10} numTwo={0} sum={10} />
-    <Sum numOne={0} numTwo={5} sum={5} />
-    <Sum numOne={0} numTwo={0} sum={0} />
+    <Sum a={2} b={3} />
+    <Sum a={-5} b={5} />
+    <Sum a={10} b={0} />
+    <Sum a={0} b={5} />
+    <Sum a={0} b={0} />
     {/* Replace paragraphs with Sum componets */}
     {/* And remove commented lines :) */}
   </>

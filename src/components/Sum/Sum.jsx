@@ -1,9 +1,9 @@
 // export const Sum = () => ();
 
-export function Sum({ numOne, numTwo, sum }) {
+export function Sum({ a = 0, b = 0 }) {
   return (
     <p>
-      Sum of {numOne} and {numTwo} is {sum}
+      Sum of {a} and {b} is {a + b}
     </p>
   );
 }
