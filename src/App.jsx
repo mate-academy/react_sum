@@ -11,8 +11,3 @@ export const App = () => (
     <Sum />
   </>
 );
-
-Sum.defaultProps = {
-  a: 0,
-  b: 0,
-};
