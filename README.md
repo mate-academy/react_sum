@@ -1,21 +1,54 @@
-# Sum Component
+# React Sum
 
-Create a `Sum` component accepting `a` and `b` props and rendering a paragraph with a text like `Sum of 2 and 1 is 3`. Replace numbers with actual
-values. If the `a` or `b` props are not passed, set them to `0`.
+Pequeno projeto em React que implementa um componente responsável por somar dois valores recebidos via props.
 
-**Please note:** use named export (not default).
+[DEMO LINK](https://Igor-hrm.github.io/react_sum/)
 
-The `App` should contain the next `Sum` components:
+---
 
-- `a = 2` and `b = 3`;
-- `a = -5` and `b = 5`;
-- just `a = 10`;
-- just `b = 5`;
-- no params at all.
+## Sobre o projeto
 
-## Instructions
+Este projeto foi desenvolvido com o objetivo de praticar conceitos básicos do React, como criação de componentes, uso de props e renderização dinâmica de valores no JSX.
 
-- Install Prettier Extention and use this [VSCode settings](https://mate-academy.github.io/fe-program/tools/vscode/settings.json) to enable format on save.
-- Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
-- Open one more terminal and run tests with `npm test` to ensure your solution is correct.
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_sum/) and add it to the PR description.
+O componente principal recebe dois números e exibe o resultado da soma na interface.
+
+---
+
+## Tecnologias utilizadas
+
+- React
+- JavaScript
+- Vite
+- CSS
+
+---
+
+## O que foi desenvolvido
+
+- Criação do componente `Sum`
+- Uso de props para receber valores dinâmicos
+- Definição de valores padrão para props
+- Renderização de múltiplos componentes na tela
+- Deploy da aplicação utilizando GitHub Pages
+
+---
+
+## Aprendizados
+
+Com este projeto, pratiquei:
+
+- Componentização em React
+- Uso de props e valores padrão
+- Estrutura básica de um projeto React
+- Processo de deploy com GitHub Pages
+
+---
+
+## Como rodar o projeto localmente
+
+```bash
+git clone https://github.com/Igor-hrm/react_sum.git
+cd react_sum
+npm install
+npm run dev
+```
