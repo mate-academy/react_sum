@@ -1,5 +1,5 @@
-export const Sum = ({ a = 0, b = 0, sum = a + b }) => (
+export const Sum = ({ a = 0, b = 0 }) => (
   <p>
-    Sum of {a} and {b} is {sum}
+    Sum of {a} and {b} is {a + b}
   </p>
 );
