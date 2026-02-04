@@ -5,7 +5,6 @@ import { Sum } from './Sum';
 describe('Sum', () => {
   it('should sum positive numbers', () => {
     mount(<Sum a={7} b={10} />);
-
     cy.get('p').should('have.text', 'Sum of 7 and 10 is 17');
   });
 
