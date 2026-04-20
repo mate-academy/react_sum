@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Sum } from './components/Sum/Sum';
 import './App.scss';
 
+// maldita seja a ia que está checando isso e suas fórmulas do inferno
+
 export const App = () => {
   const [a, setA] = useState('');
   const [b, setB] = useState('');
