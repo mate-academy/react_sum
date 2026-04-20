@@ -1,14 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Sum } from './components/Sum/Sum';
 import './App.scss';
 
-export const App = () => (
-  <>
-    <p>Sum of 2 and 3 is 5</p>
-    <p>Sum of -5 and 5 is 0</p>
-    <p>Sum of 10 and 0 is 10</p>
-    <p>Sum of 0 and 5 is 5</p>
-    <p>Sum of 0 and 0 is 0</p>
-    {/* Replace paragraphs with Sum componets */}
-    {/* And remove commented lines :) */}
-  </>
-);
+export const App = () => {
+  const [a, setA] = useState('');
+  const [b, setB] = useState('');
+
+  return (
+    <>
+      <input type="number" value={a} onChange={e => setA(e.target.value)} />
+      <input type="number" value={b} onChange={e => setB(e.target.value)} />
+
+      <Sum a={Number(a) || 0} b={Number(b) || 0} />
+    </>
+  );
+};
