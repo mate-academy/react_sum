@@ -19,6 +19,14 @@ module.exports = {
   },
   plugins: ['jsx-a11y', 'import', 'react', 'prettier'],
   rules: {
+    'import/extensions': [
+      'error',
+      'always',
+      {
+        js: 'never',
+        jsx: 'always',
+      },
+    ],
     'function-paren-newline': ['error', 'consistent'],
     'comma-dangle': [
       'error',
