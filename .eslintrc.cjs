@@ -17,6 +17,13 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx'],
+      },
+    },
+  },
   plugins: ['jsx-a11y', 'import', 'react', 'prettier'],
   rules: {
     'function-paren-newline': ['error', 'consistent'],
